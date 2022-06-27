@@ -1,0 +1,24 @@
+{
+  "name": "pdf-ocr",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.27.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lg0812/pdf-ocr.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lg0812/pdf-ocr/issues"
+  },
+  "homepage": "https://github.com/lg0812/pdf-ocr#readme"
+}
