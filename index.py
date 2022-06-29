@@ -2,7 +2,7 @@ from paddleocr import PaddleOCR
 
 ocr = PaddleOCR(use_angle_cls=True, lang='ch')
 
-with open('aws.txt', mode='w') as filename:
+with open('naws.txt', mode='w') as filename:
     for i in range(195):
         print("page: ", i)
         img_path = './assets/page' + str(i) + '.jpg'

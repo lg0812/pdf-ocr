@@ -1,3 +1,6 @@
+SAA-CO2：AWS认证解决方案架构师-助理级
+微信搜索ANYPASS
+https://aws.amazon.com/cn/fargatel
 Q1.解决方案架构师正在AmazonAPlGateway背后设计一项新服务.服务的请求模式将是不可
 预测的，并且可能会突然从每秒0个请求更改为每秒超过500个
 当前需要保留在后端数据库中的数据总大小小于1GB，并且未来的增长无法预测.可以使用简单
@@ -18,7 +21,7 @@ E.与MySQL兼容的AmazonAurora
 生费用
 不正确：“AmazonRDS"不正确，因为这是关系数据库而不是No-SQL数据库，因此，它不适合
 键值数据存储要求
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 参考文献：
 https://aws.amazon.com/lambda/featuresl
 https://aws.amazon.com/dynamodbll
@@ -56,7 +59,7 @@ Q3.一家公司拥有一个多层应用程序，该应用程序在应用程序�
 A.创建一个AutoScaling组，该组在两个区域的每个区域中使用三个实例
 B.修改AutoScaling组，以在两个可用区中的每个可用区中使用三个实例
 C.创建一个AutoScaling模板，该模板可用于在另一个Region中快速创建更多实例
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 D.在循环配置中更改AmazonEC2实例前面的ALB，以平衡到Web层的流量
 答案：B
 通过修改现有的AutoScaling组以使用多个可用性区域，可以非常简单地为此架构启用高可用性
@@ -67,6 +70,8 @@ AvallablityZone
 Private subnet
 Public subnet
 00
+淘宝：国际认证大师
+ANYPASS
 HTTP
 AutoScaling-
 group
@@ -81,7 +86,7 @@ Balancer
 00
 00
 正确：正确的答案是“修改AutoScaling组以在两个可用区中的每个可用区中使用四个实例”
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 错误：“创建一个在两个区域中每个区域使用四个实例的AutoScaling组是错误的，因为EC2Auto
 模板是错误的，因为EC2AutoScaling不支持多个区域.错误：“创建一个在两个子网中的每个子
 网中使用四个实例的AutoScaling组是错误的，因为这些子网可能位于同一可用区中
@@ -100,7 +105,7 @@ B.执行以较低的CPU阈值触发的逐步扩展操作，并缩短冷却时间
 C.实施在较低的CPU阅值下触发的目标跟踪动作，并缩短冷却时间
 D.实施预定的行动，在办事处开业前不久将最小和最大容量设置为20
 答案：A
-
+淘宝：国际认证大师微信：ANYPASS
 尽管这听起来像是计划动作的好用例，但无论实际需求如何，使用计划动作的两个答案都将运行
 20个实例，更具成本效益的更好选择是使用目标跟踪操作，该操作在较低的CPU阅值处触发，使
 用此解决方案，可在CPU利用率达到影响性能的点之前进行扩展，这将在解决性能问题的同时将
@@ -119,7 +124,7 @@ https://digitalcloud.training/certification-training/aws-solutions-architect-ass
 自动缩放/
 Q5.解决方案架构师正在设计一种解决方案，以访问图像目录并为用户提供提交自定义图像请求
 的能力.
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 图像定制参数将存在于发送到AWSAPIGatewayAPI的任何请求中.定制图像将按需生成，用户
 将获得一个链接，他们可以单击链接以查看或下载其定制图像
 该解决方案必须高度可用以查看和自定义图像，满足这些要求的最经济有效的解决方案是什么？
@@ -163,7 +168,7 @@ DynamoDB在运行时会产生RCU/WCU，这不是存储图像的最佳选择.这�
 中，将处理后的图像存储在AmazonDynamoDB中，将以S3存储桶为源的AmazonCloudFront
 分配配置为错误”这不是最具成本效益的选择，因为即使不使用EC2实例也会产生成本
 参考文献：
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 https://aws.amazon.com/serverless/
 使用我们特定于考试的备忘单节省时间：
 https://digitalcloud.training/certification-training/aws-solutions-architect-associate/storage/
@@ -186,6 +191,7 @@ D.将AmazonAPIGateway与AmazonKinesisDataAnalytics结合使用
 置他们已经拥有一个分析平台，A（Athena）和D（KinesisDataAnalytics）已淘汰竞争激烈的
 S3和APT网关支持RESTAPL现在B和C都在比赛中.C将不支持RESTAPI.因此，根据以
 下详细信息，答案应为B
+淘宝国际认证大师微信：ANYPASS
 现在，如果我们谈论数据类型，我们正在谈论他们的自行车的GEO位置数据.API网关将支持
 RESTAPl.因此，确切的解决方案应该是带有AWSLambda的API网关以及AmazonKinesis
 DataAnalytics（假定已使用）
@@ -205,7 +211,7 @@ https://digitalcloud.training/certification-training/aws-solutions-architect-ass
 amazon-s3/
 https://digitalcloud.training/certification-training/aws-solutions-architect-associate/storage/aws-
 storage-gateway/
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 Q7解决方案架构师正在多个AmazonEC2实例上部署分布式数据库.数据库将所有数据存储在
 多个实例上，因此它可以承受一个实例的丢失，该数据库需要具有延迟和吞吐量的块存储，以支持
 每台服务器每秒几百万个事务
@@ -218,8 +224,8 @@ D.亚马逊S3
 实例存储为您的实例提供临时的块级存储，该存储位于物理上连接到主机的磁盘上，实例存储非
 常适合用于临时存储经常更改的信息（例如缓冲区，缓存，暂存数据和其他临时内容），或者用
 于跨实例实例复制的数据（例如负载均衡的Web服务器池）：
-
-
+淘宝：国际认证大师微信：ANYPASS
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 InstanceA
 InstanceC
 InstanceB
@@ -237,7 +243,7 @@ HostComputer2
 卷.正确：“AmazonEC2实例存储”是正确的答案.错误：“AmazonEBS"不正确，弹性块存储
 （EBS）是一种块存储设备，但是由于数据是分布式的且具有容错能力，因此，使用实例存储是
 一种更好的性能选择
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 错误：“AmazonEFS”不正确，因为EFS不是块设备，它是使用NFS协议访问的文件系统
 错误：“AmazonS3不正确，因为S3是基于对象的存储系统，而不是基于块的存储系统
 参考文献：
@@ -256,14 +262,14 @@ E.在默认安全组中创建一个安全组条目以提供访问权限
 答案：AB
 AmazonDynamoDB和AmazonS3支持网关终端节点，不支持接口终端节点.使用网关端点，您
 可以在VPC中创建端点，附加允许访问服务的策略，然后指定路由表以在其中创建路由表条目
-
-
+淘宝：国际认证大师微信：ANYPASS
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 Default VPC
 VPC
 Public subnet
 EC2 Instance
 Private subnet
-
+淘宝：国际人证大师
 信：ANYPA
 DynamoDB Gateway
 EC2 Instance
@@ -274,7 +280,7 @@ Destination
 Target
 pl-6ca54005(com.ama2onwws.ap-southeast-2.s3.54.231.248.0/22.54.231.252.0/24.52.95.128.0/21)
 vxe-ID
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 正确：“为端点创建路由表条目"是正确的答案，正确：“为DynamoDB创建网关端点”也是正确的答
 案.错误：“创建使用端点的新DynamoDB表”是错误的，因为没有必要创建新的DynamoDB表
 错误：在VPC的每个子网中为端点创建ENI不正确，因为接口端点而不是网关端点使用了ENI
@@ -295,7 +301,7 @@ B.为AWSWAF部署适当的托管规则并将其与ALB关联
 C.订阅AWSShieldAdvanced并确保常见漏洞和暴露被阻止
 D.配置网络ACL和安全组以仅允许端口80和443访问EC2实例
 答案：B
-
+淘宝：国际认证大师微信：ANYPASS
 您可以将AWSWAF作为CDN解决方案的一部分部署在AmazonCloudFront上，也可以将应用
 程序负载均衡器部署在EC2上运行的Web服务器或原始服务器的前端，也可以将API部署在
 AmazonAPIGateway中.
@@ -305,7 +311,7 @@ AWSWAF易于部署和保护部署在CDN解决方案中的AmazonCloudFront上，�
 署其他软件，无需配置DNS配置，无需管理SSL/TLS证书，也无需进行反向代理设置.借助
 AWSFirewallManager集成，您可以集中定义和管理规则，并在需要保护的所有Web应用程序
 中重用它们.
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 Amazon
 Cloudfront
 Aplication
@@ -347,6 +353,7 @@ merics&log data
 错误：“订阅AWSShieldAdvanced并确保阻止常见漏洞和暴露”是错误的，因为这将支持ELB错
 误：“将网络ACL和安全组配置为仅允许端口80和443访问EC2实例”不正确，因为"新的常见漏
 洞和披露”
+参考文献宝：国际认证大师微信：ANYPASS
 https://aws.amazon.com/waf/
 https://aws.amazon.com/shield/
 https://aws.amazon.com/shield/features/
@@ -362,7 +369,7 @@ B.设置一个AmazonAPIGateway并使用AWSElasticBeanstalk
 C.设置AmazonAPIGateway并使用AWSLambda函数
 D.设置AmazonAPIGateway并将AmazonEC2与AutoScaling一起使用
 答案：C
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 这个问题只是在要求您为规定的要求制定出最佳的计算服务，关键要求是计算服务应适用于需求
 范围很广的工作负载，从无请求到大流量突发，AWSLambda是一种理想的解决方案，因为您仅
 在发出请求时才付费，并且可以轻松扩展以容纳大量流量.Lambda与APIGateway和Amazon
@@ -382,9 +389,8 @@ Q11.公司的Web应用程序正在使用多个LinuxAmazonEC2实例，并将数�
 该公司正在寻找一种解决方案，以在出现故障的情况下提高应用程序的弹性，并提供符合原子性，
 一致性，隔离性和耐用性（ACID）的存储
 解决方案架构师应该怎么做才能满足这些要求？
-A.在每个可用区中的EC2实例上启动应用程序
+A在每个可用区中的EC2实例上启动应用程序
 将EBS卷附加到每个EC2实例
-B. 使用跨多个可用区的Auto Scaling组创建一个Application Load Balancer.
 在每个EC2实例上安装一个实例存储
 C.使用跨多个可用区的AutoScaling组创建一个ApplicationLoadBalancer
 将数据存储在AmazonEFS上，并在每个实例上安装一个目标，
@@ -403,7 +409,7 @@ D.使用跨多个可用区的AutoScaling组创建一个ApplicationLoadBalancer
 错误：“使用跨多个可用区的AutoScaling组创建应用程序负载均衡器.在每个EC2实例上安装实
 例存储是不正确的，因为买例存储是临时数据存储这意味着在断电时数据会丢失，同样，实例
 存储不能在实例之间共享
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 错误：使用跨多个可用区的AutoScaling组创建应用程序负载平衡器，使用AmazonS3一次区
 域不频繁访问（S3OneZone-IA）存储数据”是不正确的，因为与此S3层相关联的数据检索费用
 它不适用于应用程序文件的存储层
@@ -426,7 +432,7 @@ C.将数据库密码移至与Lambda函数关联的环境变量，
 D.将密码存储在AWSKeyManagementService（AWSKMS）中
 将Lambda函数与一个角色相关联，该角色可以根据给定的密钥ID从AWSKMS检索密码，
 答案：B
-
+淘宝：国际认证大师微信：ANYPASS
 Q13.解决方案架构师需要在AmazonS3存储桶中使用静态网站.解决方案架构师需要确保在意
 外删除的情况下可以恢复数据
 哪个动作可以完成此任务？
@@ -442,7 +448,7 @@ S3存储桶中的每个对象的每个版本，
 这是一个存储类，可以根据使用模式在频繁访问和不频繁访问类之间自动移动数据
 错误：“启用AmazonS3生命周期策略”不正确.S3生命周期策略是一组规则，这些规则定义了适
 用于S3对象组的操作，例如将对象过渡到另一个存储类，
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 不正确：“启用AmazonS3跨区域复制”不正确，因为这是用于将对象复制到不同区域的.CRR依
 赖于版本控制，这是防正意外删除所必需的功能
 参考文献：
@@ -465,7 +471,9 @@ B.使用AWSStorageGateway将现有数据移至AWS
 C.使用AWSDataSync将现有数据移至AWS
 使用AmazonS3存储现有数据和新数据。
 启用AmazonS3对象锁定，并通过管理事件启用AWSCloudTrail
+ANYPASS
 D.使用AWSStorageGateway将现有数据移至AWS.
+微信：
 使用AmazonElasticBlockStore（AmazonEBS）存储现有数据和新数据
 启用AmazonS3对象锁定并启用AmazonS3服务器访问日志记录
 答案：A
@@ -481,7 +489,7 @@ Gateway配置保留对已迁移数据的访问权限，并保留来自基于本�
 新数据.启用AmazonS3对象锁定并通过管理事件启用AWSCloudTrail是错误的，因为当前基
 础架构空间不足”：“使用AWSDataSync将现有数据移至AWs.使用AmazonS3存储现有数据
 和新数据.启用AmazonS3对象锁定并通过管理事件启用AWSCloudTrail.”错误，因为默认情
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 况下启用了管理事件”不正确：“使用AwSStorageGateway将现有数据移动到AWS.使用
 AmazonElasticBlockStore（AmazonEBS）存储现有数据和新数据：启用AmazonS3对象锁定
 并启用AmazonS3服务器访问日志记录.”不正确，因为"当前基础结构空间不足”
@@ -517,9 +525,10 @@ AmazonFSx
 in-transit and at-rest
 FSXofrWindows
 File Server
-
+淘宝：国际认证大师
+微信：ANYPASS
 AWSCloudTrail的工作方式
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 anceAudding
 Operational
 Trcubleshooting
@@ -557,6 +566,7 @@ item.additionalFields.postDateTime&whats-new-cards.sort-order=desc
 https://aws.amazon.com/cloudtrail/
 https://aws.amazon.com/storagegatewayl?whats-new-cards.sort-by=
 item.additionalFields.postDateTime&whats-new-cards.sort-order=desc
+使用我们特定于考试的备忘单节省时间！正大师微信：ANYPASS
 https://digitalcloud.training/certification-training/aws-solutions-architect-associate/storage/
 amazon-s3/
 Q15.
@@ -574,7 +584,7 @@ D.在MySQL的RDS上启用加密的只读副本
 答案：C
 AmazonRDS使用快照进行备份，仅当数据库已加密时，快照才会在创建时进行加密，并且只能
 在首次创建数据库时选择加密，在这种情况下，数据库以及快照均未加密，但是，您可以创建快照
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 的加密副本，您可以使用该快照进行还原，该快照将创建一个启用了加密的新数据库实例，从那时
 起，将为所有快照启用加密，
 正确：“创建数据库的快照，将其复制到加密的快照，从加密的快照还原数据库”是正确的答案，错
@@ -595,7 +605,7 @@ B.启用将AWSCloudTrail日志传递到AmazonS3存储桶
 C使用AmazonCloudWatchEvents解析日志
 D.使用AWSOpsWorks来管理其资源
 答案：B
-
+淘宝：国际认证大师微信：ANYPASS
 可以创建CloudTrail跟踪，该跟踪将日志文件传递到AmazonS3存储桶
 Q17.在专用子网中运行的应用程序访问AmazonDynamoDB表，有一个安全要求，即数据永远
 都不会离开AWS网络
@@ -606,7 +616,7 @@ C.添加一个NAT网关并在专用子网上配置路由表
 D.为DynamoDB创建VPC端点并配置端点策略
 答案：D
 提示：专用子网=VPC端点
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 Interface Endpoint
 GatewayEndpoint
 What
@@ -644,7 +654,7 @@ B.创建用户桌面的映像，使用VMImport将其迁移到AmazonEC2，并将E
 Scaling组中
 C.在ApplicationLoadBalancer和AmazonRDSMulti-AZDB实例后面的AWS上预先运行新的
 AmazonEc2实例
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 D.使用AWSDMS将后端数据库迁移到AmazonRDSMulti-AZ数据库实例
 将应用程序代码迁移到AWSElasticBeanstalk
 答案：D
@@ -652,12 +662,11 @@ Q20.一家公司在具有明确定义的访问模式的AmazonS3存储桶中存�
 30天内，应用程序每天多次访问文件，在接下来的90天内很少访问文件，之后，将不再访问文件
 在最初的120天内，访问这些文件的时间绝不会超过几秒钟
 应该为S3对象使用哪种生命周期策略，以根据访问模式将成本降至最低？
-A.前30天使用AmazonS3Standard-InfrequentAccess（S3Standard-IA）存储然后在接下来
+A前30天使用AmazonS3Standard-InfrequentAccess（S3Standard-IA）存储然后在接下来
 的90天内将文件移至GLACIER存储类.之后允许数据过期
 B.前30天使用AmazonS3Standard存储，然后在接下来的90天内将文件移动到AmazonS3
 Standard-InfrequentAccess（S3Standard-IA）之后允许数据过期
 类，之后充许数据过期
-C.前30天使用AmazonS3Standard存储，然后在接下来的90天内将文件移动到GLACIER存储,之后充许数据过期
 D.前30天使用AmazonS3Standard-lnfrequentAccess（S3Standard-IA）：之后，将数据移至
 GLACIER存储类，该类将被自动删除
 答案：B
@@ -679,7 +688,7 @@ D.竞价型实例
 不正确：“按需实例是不正确的，因为由于没有折扣，这将更加昂贵。
 错误：“SpotInstances”不正确，因为一旦启动工作负载就无法中断，如果需要竞价价格或容量，
 可以使用竞价型实例终止工作负载
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 参考文献：
 https://docs.aws.amazon.com/AWSEc2/latest/UserGuide/ec2-scheduled-instances.html使用我
 们针对考试的备忘单节省时间：
@@ -695,7 +704,7 @@ D.将日志保存在AmazonEBS卷中，并每月拍摄一次快照
 支持此类长期记录保留的各种合规性控件来锁定保管库！
 Q23.解决方案架构师正在创建在AmazonVPC中运行的应用程序，该应用程序需要访问AWS
 哪些基础架构新增功能将允许在满足要求的同时访问AWS服务？
-A.VPC对等
+AVPC对等宝：国际认证大师微信：ANYPASS
 B.NAT实例
 C.NAT网关
 D.AWSPrivateLink
@@ -713,7 +722,7 @@ https://docs.aws.amazon.com/sns/latest/dg/sns-vpc-endpoint.html使用我们针�
 省时间：
 https://digitalcloud.training/certification-training/aws-solutions-architect-associate/networking-an
 d-content-delivery/amazon-vpc/
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 Q24.在AWS上运行的照片共享网站允许用户生成存储在AmazonS3中的照片的缩略图
 AmazonDynamoDB表维护照片的位置，如果不小心删除了缩略图，则可以轻松地从原始照片重
 新创建缩略图
@@ -732,9 +741,9 @@ B.使用带有客户提供的密钥（SSE-C）的S3服务器端加密
 C.使用S3存储桶策略来限制对静态数据的访问
 D.在使用加密密钥将数据提取到AmazonS3之前，使用客户端加密
 E.在传输到AmazonS3时，使用SSL加密数据
-答案：BD
+答案：BD陶宝：国际认证大师微信：ANYPASS
 限.
-Q26.哪种动作组合可以达到目的？（选择两个，）
+哪种动作组合可以达到目的？（选择两个，）
 A.确保root用户使用强密码
 B.对根用户启用多因素身份验证
 C.将root用户访问密钥存储在加密的AmazonS3存储桶中
@@ -745,7 +754,7 @@ E.使用内联策略文档将所需权限应用于根用户
 锁定根用户访问密钥，或者尽可能删除它们
 使用强密码
 启用多因素身份验证（MFA）
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 root用户将自动拥有对该帐户的全部特权，并且不能限制这些特权
 因此遵循有关保护root用户
 帐户的最佳实践建议非常重要，
@@ -768,7 +777,7 @@ A.在ALB之前配置AmazonCloudFront分配
 B.根据CPU使用率配置EC2自动扩展简单扩展策略
 C.根据月度计划配置EC2AutoScaling计划的缩放策略
 D.配置AmazonElastiCache以从Ec2实例中册删除一些工作负载
-答案：C
+答案：C淘宝：国际认证大师微信：ANYPASS
 预定缩放比例充许您设置自己的缩放时间表在这种情况下，可以将缩放操作安排为恰好在每个月
 运行报表之前执行：缩放操作会根据时间和日期自动执行，这将确保有足够的EC2实例来满足需
 求，并防止应用程序变慢，正确：“根据月度计划配置EC2AutoScaling计划的缩放策略”是正确的
@@ -786,7 +795,7 @@ Q28.一家公司正在从内部部署基础架构迁移到AWS云：该公司的�
 Windows文件服务器场中，该服务器场使用分布式文件系统复制（DFSR）来保持数据同步.
 解决方案架构师需要替换文件服务器场
 解决方案架构师应使用哪种服务？
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 A.AmazonEFS
 B.亚马逊FSx
 C.亚马逊S3
@@ -836,7 +845,7 @@ Q29.公司的网站用于向公众出售产品.该站点在应用程序负载平
 ALB是CloudFront分发的来源.最近对安全日志的审查显示，需要阻止外部恶意IP访问该网站
 解决方案架构师应该怎么做才能保护应用程序？
 A.修改CloudFront分发上的网络ACL以添加针对恶意IP地址的拒绝规则
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 B.修改AWSWAF的配置以添加IP匹配条件以阻止恶意IP地址
 C.修改ALB后面自标组中EC2实例的网络ACL以拒绝恶意IP地址
 D.修改ALB后面目标组中EC2实例的安全组以拒绝恶意IP地址
@@ -856,8 +865,8 @@ D.修改ALB后面目标组中EC2实例的安全组以拒绝恶意IP地址
 https://docs.aws.amazon.com/waf/latest/developerguide/waf-rule-statement-type-ipset
 match.html使用我们针对考试的备忘单节省时间：
 https://digitalcloud.training/certification-training/aws-solutions-architect-associate/security-identit
-y-Complianceaws-waf-and-shield
-Q30.一家营销公司正在将CSV文件存储在AmazonS3存储桶中，以进行统计分析.AmazonEC2
+y-Complianceaws-waf-and-shieldl人1正大巾微信：ANYPASS
+Q3o.一家营销公司正在将CSV文件存储在AmazonS3存储桶中，以进行统计分析.AmazonEC2
 实例上的应用程序需要权限才能有效处理存储在S3存储桶中的CSV数据，
 MOST将安全地授予EC2实例对S3存储桶的访问权限是什么？
 A将基于资源的策略附加到S3存储桶
@@ -870,7 +879,7 @@ AWSIdentityandAccessManagement(IAM）使您能够安全地管理对AWS服务和�
 用IAM，您可以创建和管理AWS用户和组，并使用权限来充许和拒绝他们对AWS资源的访问.
 IAM是您的AWS账户的一项功能，无需额外付费，您只需为用户使用其他AWS服务付费
 AmazonEC2的IAM角色
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 应用程序必须使用AWS凭证签署其API请求.因此，如果您是应用程序开发人员，则需要一种策
 略来管理在EC2实例上运行的应用程序的凭据，例如，您可以安全地将AWS凭证分发到实例，
 使那些实例上的应用程序可以使用您的凭证来签署请求，同时保护您的凭证免受其他用户的侵害
@@ -889,14 +898,14 @@ Scaling组中的实例，具有挑战性，旋转AWS凭证时，您还必须能�
 的策略，如果更改角色，则更改将传播到所有实例
 创建IAM角色时，请关联最低特权IAM策略人以限制对应用程序要求的特定API调用的访问
 IAM角色
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 Assumerole
 IAMRole
 $3Bucket
 EC2 Instance
 ablitsubnet
 Policy
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 ECSEC2CAl
 ECsFarpilhCluale
 ECS Service
@@ -908,7 +917,7 @@ Task
 Task
 AM Task Role
 IAMTaskRole
-参考文献
+参考文献宝：国际认证大师微信：ANYPASS
 https://aws.amazon.com/iam/faqs/
 https:/lyoutu.be/YQsK4MtsELU
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/iam-roles-for-amazon-ec2.html
@@ -926,7 +935,7 @@ B.设置Route53主动-被动故障转移配置.
 当Route53运行状况检查确定ALB端点不健康时，将流量定向到AmazonS3存储桶中托管的静
 态错误页面
 C.更新Route53记录以使用基于延迟的路由策略
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 将托管在AmazonS3存储桶中的备份静态错误页面添加到记录中，以便将流量发送到响应速度最
 快的终端节点
 D.使用ALB和托管静态错误页面的AmazonEC2实例，设置Route53主动-主动配置
@@ -941,7 +950,8 @@ tngie
 webservices
 AwsProducta&Sohuton
 404
-
+淘宝：国
+信：ANYPASS
 Sorry,thepageyoutried cannatbefound
 YoomayMavetypedtesdoessincoresyerylymayhavesfedonoutitsgedir
 tyoufoundbroan.irafromancithersteortrenose.pcaecfhiiua
@@ -958,7 +968,7 @@ CloudFront发行版可以使用ALB作为来源，这将导致网站内容被缓�
 静态错误页面的AmazonS3存储桶创建静态网站.将静态网站配置为故障转移的被动记录”是错
 误的，该选项并不代表最低的运营开销，因为需要人工干预才能导致故障回复到主网站，错误：“创
 建Route53加权路由策略.使用托管静态错误页面的AmazonS3存储桶创建静态网站.将S3静
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 态网站的记录配置为权重为零，发生问题时，增加权重是不正确的，此选项需要人工干预，并且在
 管理操作进行更改之前，该问题会有所延迟，
 错误：“使用ALB和托管静态错误页面的AmazonEC2实例作为端点来设置Route53主动-主动
@@ -996,7 +1006,7 @@ D.创建一个AmazonSNS主题以发送需要处理的作业
 答案：C
 在这种情况下，我们需要找到一种耐用且松散耦合的解决方案来存储作业.AmazonSQS是此用
 例的理想选择，可以配置为根据队列中等待的作业数使用动态扩展
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 要配置此缩放比例，您可以使用“每个实例的待办事项度量标准，目标值是要维护的每个实例的可
 接受的待办事项.您可以如下计算这些数字：
 每个实例的待办事项数量：要计算每个实例的待办事项数量，请从roximateNumberOfMessages
@@ -1019,7 +1029,8 @@ EC2AutoScaling组.为AutoScaling组设置扩展策略以根据网络使用情况
 此它将通知发送给订户，它确实可以持久存储数据，但不适用于此用例的SQS.无法扩展SNS中
 的通知数量.
 参考文献：
-https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-using-sqs-queue.html
+https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-using-sqs-queue.html使用我们针
+对考试的备忘单节省时间：你认证大师微信：ANYPASS
 https://digitalcloud.training/certification-training/aws-solutions-architect-associate/compute/aws-
 自动缩放/https://digitalcloud.training/certification-training/aws-solutions-architect-associate/
 application-整合/amazon-sqs/
@@ -1035,7 +1046,7 @@ C.在微服务1中实施代码以将数据发送到AmazonKinesisDataFirehose
 D.在微服务1中实施代码以将数据发送到AmazonSQS队列
 在微服务2中实现代码以处理来自队列的消息，
 答案：D
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 这是AmazonSQS的一个很好的用例.微服务必须解耦，以便它们可以独立扩展.AmazonSQS
 队列将使微服务1将消息添加到队列然后，微服务2可以提取消息并进行处理，这样可以确保，
 如果前端流量激增，消息不会由于后端进程尚未准备好处理而丢失
@@ -1058,7 +1069,7 @@ Q34.一家电子商务公司的解决方案架构师希望将应用程序日志�
 该公司希望通过使用适当的S3存储类别来尽可能降低成本，应该实现哪种S3存储类别以满足这
 些要求？
 A.S3冰川
-B.S3智能分层
+B.S3智能分层：国际认证大师微信：ANYPASS
 C.S3标准-不频繁访问（S3Standard-IA）
 D.S3一区不频繁访问（S3一区-IA）
 答案：B
@@ -1074,7 +1085,7 @@ https://digitalcloud.training/certification-training/aws-solutions-architect-ass
 amazon-s3/
 Q35.安全团队希望限制对团队所有AWS账户中特定服务或操作的访问
 个点上可以维护权限.
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 解决方案架构师应该怎么做才能做到这一点？
 A.创建一个ACL以提供对服务或操作的访问
 B.创建一个安全组以允许帐户并将其附加到用户组
@@ -1099,7 +1110,7 @@ serviceationsthat
 rulesaroundtagging
 are availablefor use
 acrossaccountsand
-
+淘宝：#
 国o乐认ountAoc微unt
 帐户）可以定义主体可以执行哪些操作的防护栏，您仍然需要将基于身份或基于资源的策略附加到
 组织帐户中的委托人或资源，以实际向他们授予权限
@@ -1116,7 +1127,7 @@ Q36.您正在尝试启动EC2实例，但是该实例似乎立即进入终止状�
 不是什么原因？
 A.AMI缺少必需的部分
 B.快照已损坏.
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 C.您需要首先在EBS中创建存储
 D.您已达到音量限制.
 答案：C
@@ -1136,9 +1147,9 @@ A.11分钟
 B.7分钟
 C.10分钟
 D.14分钟
-
+淘宝：国际认证大师微信：ANYPASS
 答案：A
-Q38.如果一个AutoScaling组正在启动多个实例，则每个实例的冷却期将在该实例启动后开始.该组
+如果一个AutoScaling组正在启动多个实例，则每个实例的冷却期将在该实例启动后开始.该组
 将保持锁定状态，直到启动的最后一个实例完成其冷静期为止，在这种情况下，第一个实例的冷却
 时间在3分钟后开始并在第10分钟结束（3+7冷却），而第二个实例的冷却时间在第4分钟开
 始并在第11分钟（4+7）结束冷却）：因此，AutoScaling组仅会在11分钟后收到另一个请求
@@ -1149,7 +1160,7 @@ C.一个容器
 D.任务定义
 答案：A
 AmazonEcS包含以下组件：
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 群集是可以放置任务的容器实例的逻辑分组.容器实例是运行AmazonECS代理并已注册到集群
 的AmazonEc2实例
 任务定义是对包含一个或多个容器定义的应用程序的描述，调度程序是用于在容器实例上放置任
@@ -1163,7 +1174,7 @@ B.因为当AWS进行例行维护时，每天20分钟都无法访问所有EC2实�
 C.因为所有EC2实例在首次启动后20分钟内都无法访问
 D.由于这里列出的所有原因
 答案：A
-Q40.打开票证之前，EC2实例必须在20分钟内无法访问，因为大多数可访问性问题都可以在不到20
+打开票证之前，EC2实例必须在20分钟内无法访问，因为大多数可访问性问题都可以在不到20
 分钟的时间内由自动化流程解决，并且不需要客户采取任何措施，如果在此时间范围后仍无法访问
 该实例，则应在支持下打开一个案例.参考：https：//aws.amazon.com/premiumsupport/faqs/
 A是的，如果使用启动配置进行了配置
@@ -1181,7 +1192,7 @@ B.图片
 C.实例备份
 D.镜子
 答案：A
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 Amazon允许您通过快照对存储在EBS卷中的数据进行备份，这些快照以后可用于创建新的EBS
 卷.
 参考：http://docs.amazonwebservices.com/AWSEC2/latest/UserGuide/Storage.html
@@ -1213,7 +1224,7 @@ Q44.新部署的标准之一是客户要使用AWSStorageGateway.但是，您不�
 存的卷还是网关存储的卷，甚至不确定它们之间的区别，以下哪个陈述最能说明这些差异？
 A.网关缓存使您可以将数据存储在AmazonSimpleStorageService（AmazonS3）中，并在本地
 保留经常访问的数据子集的副本.
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 网关存储使您可以将本地网关配置为在本地存储所有数据，然后将该数据的时间点快照异步备份
 到AmazonS3
 B.网关缓存是免费的，而网关存储不是免费的
@@ -1234,7 +1245,7 @@ D.网关存储使您可以将数据存储在AmazonSimpleStorageService（AmazonS
 参考：http：Ildocs
 Q45.用户正在美国东部地区启动EC2实例.关于可用性区域的选择，AWS建议使用以下哪个选
 项？
-
+淘宝：国际认证大师微信：ANYPASS
 A.在启动实例时始终选择AZ
 B.始终为HA选择US-East-1-a区域
 C.不要选择AZ：而是让AWS选择AZ
@@ -1251,7 +1262,7 @@ A.创建一个AmazonCloudFront发行版并将ALB配置为来源
 然后更新AmazonRoute53记录以指向CloudFront发行版
 B.为ALB创建基于延迟的AmazonRoute53记录
 然后启动具有更大实例大小的新EC2实例，并在ALB中注册这些实例
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 C.启动新版本.在靠近用户的不同区域中托管同一Web应用程序的EC2实例
 然后，使用跨区域VPC对等向相同的ALB注册实例
 D.将网站托管在离用户最近的区域中的AmazonS3存储桶中，并删除ALB和EC2实例
@@ -1288,7 +1299,7 @@ AmazonFSxforLuster提供了一种高性能文件系统，该文件系统经过�
 例如机器学习，高性能计算（HPC），视频处理，财务建模和电子设计自动化（EDA）：这些工
 作负载通常需要通过快速且可扩展的文件系统界面来呈现数据，并且通常将数据集存储在Amazon
 S3之类的长期数据存储中
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 Region
 Useforcloud
 bursting anddata
@@ -1333,7 +1344,7 @@ Q48.公司有运行关系数据库的本地服务器.当前数据库为不同位
 量
 哪种解决方案满足这些要求？
 A.在具有多可用区和至少一个只读副本的AmazonRDS中使用数据库
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 B.在具有多可用区和至少一个备用副本的AmazonRDS中使用数据库
 C.使用托管在不同AWS区域中多个AmazonEC2实例上的数据库
 D.在不同可用区中的应用程序负载均衡器后面使用AmazonEC2实例上托管的数据库
@@ -1352,7 +1363,7 @@ D.用于Memcached的AmazonElastiCache
 AmazonElastiCache是
 一个内存数据库，使用ElastiCacheMemcached，不会进行数据复制
 或提供高可用性.如您在图中所看到的，每个节点是一个单独的数据分区：
-
+淘宝：国际认证大师微信：ANYPASS
 ReglonA
 AvallabilityZoneA
 AvallabilityZoneB
@@ -1365,7 +1376,7 @@ Node5
 Node2
 Node4
 Noden
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 因此，必须使用支持数据复制和群集的Redis引擎.下图显示了启用集群模式的Redis体系结构：
 RegionA
 AvalablityZoneA
@@ -1404,7 +1415,7 @@ B.创建一个定期计划的操作以在预期的高峰需求期之前扩大Aut
 C.在需求高峰期增加AutoScaling组中EC2实例的最小和最大数量
 D.配置AmazonSimpleNotificationService（AmazonSNS）通知以在存在自动缩放
 EC2INSTANCELAUNCH事件时发送警报
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 答案：B
 AWSAutoScaling监视您的应用程序并自动调整容量，以尽可能低的成本保持稳定，可预测的性
 能.AWSAutoScaling是指跨多个AWS服务的AutoScaling功能的集合.AWSAutoScaling系
@@ -1419,13 +1430,13 @@ AmazonDynamoDB.
 保持
 使用最大，最小或特定数量的实例，
 手册
-
+淘宝：国际认证大师微信：ANYPASS
 根据计划增加或减少实例数，
 预定的
 根据实时系统指标（例如CloudWatch指标）进行扩展
 动态
 下表描述了可用的缩放选项以及何时使用它们：
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 Scaling
 Whatit is
 Whentouse
@@ -1452,11 +1463,11 @@ Scale in responsetosystemloador
 Useful for changing capacitybased on
 othertriggersusingmetrics
 systemutilization,e.g.CPUhits80%
-
+淘宝：国际认证大师微信：ANYPASS
 伸缩选项是通过伸缩策略配置的，伸缩策略确定ASG何时，是否以及如何伸缩
 下表描述了可用于动态扩展策略的扩展策略类型以及何时使用它们（在页面的下面有更多详细信
 息）：
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 Scaling Policy
 Whatitis
 Whentouse
@@ -1484,7 +1495,8 @@ capacityofyour Auto Scaling group
 adjustments based on thesizeofthe
 basedona setofscaling adjustments,
 alarmbreach
-
+淘宝：
+knwnisstepadjustment师微信：ANYPASS
 下图描述了一个AutoScaling组，其中Scaling策略设置为最小大小为1个实例，所需容量为2
 个实例，最大大小为4个实例：
 AutoScalinggroup
@@ -1493,7 +1505,7 @@ Scale out as needed
 Desiredcapacity
 Maximumsize
 当发生以下事件时，AmazonEc2AutoScaling支持发送AmazonSNS通知
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 参考文献：
 使用我们特定于考试的备忘单节省时间：
 https://digitalcloud.training/certification-training/aws-solutions-architect-associate/compute/aws-
@@ -1512,7 +1524,7 @@ D.在新的可用区中创建新的公共和私有子网在一个可用区中使
 E.在新的可用区中的每个VPC中创建新的公共和私有子网，将数据库迁移到AmazonRDS多可
 用区部署
 答案：BE
-
+淘宝：国际认证大师微信：ANYPASS
 通过将EC2实例放置在多个可用区中，可以使它们具有高可用性。
 Q52.一家金融服务公司拥有一个网络应用程序，可为美国和欧洲的用户提供服务
 该应用程序由数据库层和Web服务器层组成.数据库层由us-east-1中托管的MySQL数据库组
@@ -1528,7 +1540,7 @@ C.在每个区域中部署MySQL实例
 D.以MySQL兼容模式将数据库迁移到AmazonAurora全局数据库
 在欧洲地区之一中配置只读副本
 答案：D
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 这里的问题是读取查询从澳大利亚指向英国的延迟，这是很大的物理距离，需要一种解决方案来提
 高澳大利亚的读取性能.一个Aurora全局数据库由一个主要的AWS区域（用于管理您的数据）
 和最多五个只读的次要AWS区域组成
@@ -1557,7 +1569,7 @@ OnesecondaryAWSregion
 Usesdedicatedinfrastructure
 NoimpactonDBperformance
 Good fordisaster recovery
-
+淘宝：国际认证大师微信：ANYPASS
 该解决方案将为澳大利亚地区的用户提供更好的查询性能，写入仍必须在英国地区进行，但读取性
 能将大大提高.正确：“以MySQL兼容模式将数据库迁移到AmazonAurora全局数据库在
 ap-southeast-2中配置只读副本”是正确的答案，错误：“将数据库迁移到AmazonRDSforMySQL
@@ -1577,7 +1589,7 @@ S3Glacier.解决方案必须避免饱和分支机构的低带宽Internet连接
 什么是最具成本效益的解决方案1？
 A.创建到AmazonS3存储桶的站点到站点VPN隧道，然后直接传输文件
 创建存储桶策略以强制执行VPC端点，
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 B.订购1O台AWSSnowball设备，然后选择一个S3Glacier保管库作为目的地
 创建存储桶策略以强制执行VPC端点
 C.将网络连接的文件系统安装到AmazonS3并直接复制文件
@@ -1600,7 +1612,7 @@ Snowball使用硬件设备将数据移动到AwS中，然后将数据复制到您
 这不是最具成本效益的选项，并且需要花费一些时间进行设置.不正确：“使用AWSGlobal
 Accelerator加速上传并优化可用带宽的使用"是不正确的，因为此服务未用于加速或优化来自本地
 网络的数据上传：
-参考文献
+参考文献司广宝：国际认证大师微信：ANYPASS
 https://docs.aws.amazon.com/snowball/latest/developer-guide/specifications.html使用我们针对
 考试的备忘单节省时间：
 https://digitalcloud.training/certification-training/aws-solutions-architect-associate/storage/
@@ -1617,7 +1629,7 @@ C创建生产RDS数据库实例的多个RDS只读副本
 D.创建生产RDS数据库实例的单可用区RDS只读副本
 从副本创建第二个单可用区RDS只读副本
 答案：B
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 您可以将只读副本创建为多可用区数据库实例.AmazonRDS在另一个可用区中创建副本的备用
 数据库，以支持该副本的故障转移，将只读副本创建为多可用区数据库实例与源数据库是否为多可
 用区数据库实例无关
@@ -1639,7 +1651,6 @@ Q55.公司允许其开发人员将现有的1AM策略附加到现有的1AM角色�
 何安全策略
 解决方案架构师应如何解决此问题？
 A.创建一个AmazonSNS主题，以在开发人员每次创建新策略时发送警报
-B.使用服务控制策略来禁用组织单位中所有账户的IAM活动
 C.防止开发人员附加任何策略，并将所有1AM职责分配给安全运营团队
 D.在开发人员1AM角色上设置一个IAM权限边界，该边界明确拒绝附加管理员策略
 答案：D
@@ -1647,11 +1658,14 @@ IAM实体（用户或角色）的权限边界设置该实体可以具有的最�
 这可以更改该用户或角色的
 有效权限实体的有效权限是影响用户或角色的所有策略所授予的权限，在帐户内，实体的权限可
 能会受到基于身份的策略，基于资源的策略，权限边界，组织SCP或会话策略的影响！
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 Permissions
 Resource-based
 boundary
 pclicy
+淘宝：
+国际认
+ANYPASS
 Identity-based
 Effective
 policy
@@ -1665,7 +1679,7 @@ permissions
 错误：“防止开发人员附加任何策略并将所有IAM职责分配给安全运营团队是不正确的，因为这
 是不必要的，要求是允许开发人员使用策略，解决方案需要找到实现此目标的安全方法
 参考文献：
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 https://docs.aws.amazon.com/AM/latest/UserGuide/access_policies_boundaries.html使用我们
 针对考试的备忘单节省时间：
 y-Compliance/aws-iam/
@@ -1683,7 +1697,7 @@ Q57设置了虚拟私有云（VPC）网络之后，一位经验更为丰富的�
 迟和高网络吞吐量，您应该考虑设置展示位置组您对此一无所知，但开始对其进行一些研究，并
 对它的局限性特别好奇，在描述展示位置组的局限性时，以下哪种说法是错误的？
 A尽管可以将多个实例类型启动到放置组中，但是这降低了成功启动所需容量所需的可能性
-B.放置组可以跨越多个可用区下
+B.放置组可以跨越多个可用区下认证大州师微信：ANYPASS
 C.您不能将现有实例移动到展示位置组中
 D.展示位置组可以跨越对等VPC
 答案B
@@ -1701,7 +1715,7 @@ VPC：但是，您不会在对等VPC中的实例之间获得全等带宽，有�
 从现有实例创建AMI，然后从AMI启动新实例到放置组.参考：
 http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/placement-groups.html
 Q58.AmazonEC2中的展示位置组是什么？
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 A.它是单个可用区内的一组EC2实例
 B.它是您的Web内容的边缘位置
 C.在AWS区域中运行Web内容的EC2实例
@@ -1709,8 +1723,6 @@ D.这是一个用于跨越多个可用区的组，
 答案：A
 放置组是单个可用区内的实例的逻辑分组，参考：
 http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/placement-groups.html
-
-Q59. 您正在将DC上的内部服务器迁移到具有EBS卷的EC2实例，服务器磁盘使用量约为
 500GB，因此您仅将所有数据复制到2TB磁盘上即可与AWSImport/Export结合使用数据到
 达亚马逊后将导入哪里？
 A.到2TBEBS卷
@@ -1736,7 +1748,7 @@ AmazonRDS使您可以访问熟悉的MySQL，Oracle，SQLServer或PostgreSQL数�
 启用时间点恢复.参考：
 http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html
 Q61.是非题：VPC包含多个子网，其中每个子网可以跨越多个可用区
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 A.只有在设置VPC期间提出要求时，这才是正确的
 B.这是真的
 C.这是错误的.
@@ -1760,7 +1772,6 @@ Q63.您正在寻找改善现有基础架构的方法，因为基本的管理和�
 源，而且成本似乎过高，您正在考虑部署AmazonElasticCache来提供帮助，关于ElasticCache，
 以下哪个陈述是正确的？
 A.您可以改善对用户操作和查询的负载和响应时间，但是与扩展Web应用程序相关的成本会更高
-B.您无法改善对用户操作和查询的负载和响应时间，但可以减少与扩展Web应用程序相关的成本
 C.您可以改善对用户操作和查询的负载和响应时间，但是与扩展Web应用程序相关的成本将保持
 不变
 D.您可以改善对用户操作和查询的负载和响应时间，还可以减少与扩展Web应用程序相关的成本
@@ -1769,7 +1780,7 @@ AmazonElastiCache是一项Web服务，可轻松在云中部署和运行与Memcac
 协议兼容的服务器节点.AmazonElastiCache允许您从快速，托管的内存中缓存系统检索信息，
 而不是完全依赖于速度较慢的基于磁盘的数据库，从而提高了Web应用程序的性能.该服务简化
 并减轻了内存中缓存环境的管理，监视和操作，使您的工程资源可以专注于开发应用程序，使用
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 AmazonElasticache，您不仅可以改善对用户操作和查询的负载和响应时间，还可以减少与扩展
 Web应用程序相关的成本.
 参考：https://aws.amazon.com/elasticache/faqsl
@@ -1787,6 +1798,7 @@ Q65您的主管要求您为部门建立一个简单的文件同步服务，他�
 A.亚马逊SES
 B.亚马逊CloudSearch
 C.亚马逊SWF
+国际认证大师微信：ANYPASS
 D.亚马逊AppStream
 答案：A
 通过使用资源简单易用，经济高效的电子邮件解决方案AmazonSimpleEmailService（Amazon
@@ -1803,14 +1815,13 @@ B.将数据存储在AmazonEFS文件系统中
 在应用程序实例上挂载文件系统
 C.将数据存储在AmazonS3Glacier中
 更新库策略以允许访问应用程序实例.
-D.将数据存储在Amazon S3 Standard-Infrequent Access (S3 Standard-IA)中.
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 更新存储桶策略以充许访问应用程序实例
 答案：B
 AmazonElasticFileSystem（AmazonEFS）提供了一个简单，可扩展，完全托管的弹性NFS文
 件系统，可与AWSCloud服务和本地资源一起使用.“它的构建目的是在不破坏应用程序的情况下
 按需扩展到PB”，在添加和删除文件时自动增长和收缩从而无需配置和管理容量以适应增长
 “数据将每小时进行分析，并由多个AmazonEC2Linux实例进行修改
-Q67. 一家游戏公司的单个多人游戏在一个可用区中具有多个Amazon EC2实例，该实例与第四
 层上的用户进行通信.首席技术官（CTO）希望使该架构高度可用且具有成本效益，
 解决方案架构师应该怎么做才能满足这些要求？（选择两个。）
 A.增加EC2实例的数量
@@ -1839,7 +1850,7 @@ amazon-ec2/https://digitalcloud.training/certification-training/aws-solutions-ar
 Q68.一家公司在多个AmazonEC2实例上托管一个应用程序，该应用程序处理来自Amazon
 SQS队列写入AmazonRDS表的消息，并从队列中删除该消息偶尔在RDS表中发现重复记录
 SQS队列不包含任何重复的消息，归档的解决方案应该做什么以确保仅处理一次消息？
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 A.使用CreateQueueAPl调用创建一个新队列
 B.使用AddPermissionAPl调用添加适当的权限
 C.使用ReceiveMessageAPl调用设置适当的等待时间
@@ -1855,13 +1866,13 @@ API提供了重复数据删除功能，可防止您的消息生产者发送重�
 将应用程序设计为幕等的（也就是说，在多次处理同一条消息时，它们不会受到不利影响）。
 CreateQueue-创建队列后不能更改队列类型，也不能将现有的标准队列转换为FIFO队列.您必
 须内应用程序创建新的FIFO队列，或者删除现有的标准队列并将其重新创建为FIFO队列
-
+淘宝：国际认证大师信：ANYPASS
 AddPermission-创建一个队列，您对该队列具有完全控制访问权限.只有您（队列的所有者）才
 能授予或拒绝该队列的权限.
 ReceiveMessage-从指定的队列中检索一条或多条消息（最多10条）
 FIFO队列提供一次精确的处理，这意味着每个消息仅传递一次并保持可用状态，直到使用者处理
 并删除它为止
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 StandardQueues
 FIFOQueues
 Unlimited Throughput:Standard queues support a nearly
@@ -1880,10 +1891,10 @@ Duplicates aren't introduced intothequeue.
 First-In-First-OutDelivery:Theorder in whichmessagesaresent
 andreceived isstrictlypreserved (fi.e.First-ln-First-Out)
 3
-
+淘宝：国际认证大师微信：ANYPASS
 可见性超时
 亚马逊SQS
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 Messagecannorbe
 Messageis invisible
 retumed
@@ -1898,8 +1909,9 @@ Visibility Timeout
 Timeline
 x
 Messagereceived
-
+淘宝：
 Message fais to
+ANYPASS
 Consumer
 process
 参考文献：
@@ -1917,7 +1929,7 @@ Q69.角
 解决方案架构师正在为两步定购流程设计应用程序，第一步是同步的，必须以很少的延迟返
 回给用户，第二步需要花费更长的时间，因此将在单独的组件中实施，订单必须按接收到的顺序准
 确处理一次.解决方案架构师应如何集成这些组件？
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 A.使用AmazonSQSFIFO队列
 B.将AWSLambda函数与AmazonSQS标准队列一起使用
 C.创建一个SNS主题并将AmazonSQSFIFO队列订阅到该主题
@@ -1935,7 +1947,7 @@ B.在一个可用区中的扩展放置组中启动EC2实例
 C.在两个区域的AutoScaling组中启动EC2实例，并与VPC对等
 D.在跨越多个可用区的AutoScaling组中启动EC2实例
 答案：A
-
+淘宝：国际认证大师微信：ANYPASS
 当启动新的EC2实例时，EC2服务将尝试以所有实例都分布在基础硬件中的方式放置该实例，以
 最大程度地减少相关故障，您可以使用放置组来影响一组相互依赖的实例的放置，以满足工作负载
 的需求
@@ -1955,7 +1967,7 @@ Cassandra和Kafka）通常使用此策略
 错误：“在跨越多个可用区的AutoScaling组中启动EC2实例”是不正确的，因为这不会减少网络
 延迟或提高性能
 参考文献：
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/placement-groups.html使用我们针对
 考试的备忘单来节省时间：
 https://digitalcloud.training/certification-training/aws-solutions-architect-associate/compute/
@@ -1991,7 +2003,7 @@ https://digitalcloud.training/certification-training/aws-solutions-architect-ass
 amazon-s3/https://digitalcloud.training/certification-training/aws-solutions-architect-associate/
 security-identity-合规性/aws-kms/
 Q72.AmazonEC2管理员创建了与包含多个用户的1AM组关联的以下策略
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 "version":"2012-10-17",
 "statement":[
 "Effect":"Allow"
@@ -2005,6 +2017,7 @@ Q72.AmazonEC2管理员创建了与包含多个用户的1AM组关联的以下策�
 "Condition":H
 "stringNotEquals":{
 "ec2:Region":"us-east-1"
+淘宝，国际认证大师微信：ANYPASS
 1
 这项政策有什么作用？
 A.用户可以终止除us-east-1之外的任何AWS区域中的EC2实例.
@@ -2018,7 +2031,7 @@ Q73.一家公司正在AmazonEC2上运行电子商务应用程序.该应用程序
 应该使用哪种解决方案以最小化成本？
 A.购买预留实例以覆盖250个实例
 B.购买预留实例以覆盖80个实例
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 使用竞价型实例覆盖其余实例
 C.购买按需实例以涵盖40个实例
 使用竞价型实例覆盖其余实例
@@ -2052,14 +2065,12 @@ Q76.AmaZonEC2提供了这是一个使用HTTP动词GET或POST的HTTP或HTTPS请
 求.
 A.网络数据库
 B.NET框架
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 C.查询API
-D.直流图书馆
+直流图书馆
 答案：C
 AmazonEC2提供了一个查询API.这些请求是使用HTTP动词GET或POST和名为Action的
 Query参数的HTTP或HTTPS请求.参考：
-
-Q77. 在Amazon AWS中，以下哪个语句对密钥的描述是正确的？
 A.密钥对仅用于AmazonSDK.
 B.密钥对仅用于AmazonEC2和AmazonCloudFront
 C.密钥对仅用于ElasticLoadBalancing和AWSIAM.
@@ -2068,7 +2079,7 @@ D.密钥对用于所有Amazon服务
 密钥对由一个公共密钥和一个私有密钥组成，您可以在其中使用私有密钥创建数字签名，然后
 AWS使用相应的公共密钥来验证签名.密钥对仅用于AmazonEC2和AmazonCloudFront.
 参考：http://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html
-Q78.AmazonDynamoDB是否同时支持递增和递减原子操作?
+Q78AmazonDynamoDB是否同时支持递增和递减原子操作?信：ANYPASS
 A.仅增量，因为DynamoDB的数据模型本来就不可能减小
 B.不，既不递增也不递减操作
 C.是的，增量和减量操作都可以
@@ -2084,7 +2095,7 @@ B.创建具有跨帐户访问权限的IAM角色
 C.在测试帐户中创建IAM用户，并允许其使用IAM策略访问生产环境
 D.创建具有交叉帐户访问权限的IAM用户
 答案：B
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 一个组织拥有多个AWS账户，以将开发环境与测试或生产环境隔离开，有时来自一个帐户的用户
 需要访问另一个帐户中的资源，例如将更新从开发环境升级到生产环境，在这种情况下，具有交叉
 账户访问权限的IAM角色将提供解决方案跨账户访问充许一个账户与另一个AWS账户中的用
@@ -2102,12 +2113,12 @@ D.DBMSFILE TRANSFER
 和种类.例如，您可以使用OracleSQLDeveloper导入一个简单的2oMB数据库，您想要使用
 参考：
 http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Oracle.Procedural.lmporting.html
-
+淘宝：国际认证大师微信：ANYPASS
 Q81用户已创建具有1000IOPS的EBS卷，如果将实例附加到EBS优化实例，则根据EC2SLA，
 用户一年中大部分时间的平均IOPS是多少？
 A.950
-B.990年
-C.约1000
+990年
+约1000
 D.900
 答案：D
 根据AWSSLA，如果将实例附加到EBS优化实例，则预配置IOPS卷的设计可在给定年份的
@@ -2118,7 +2129,7 @@ Q82
 您需要将大量数据迁移到存储在硬盘上的云中，然后您确定实现此目标的最佳方法是使用
 确?
 A.它可以从AmazonS3导出
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 B.它可以导入到AmazonGlacier
 C.它可以从AmazonGlacier导出
 D.它可以导入到AmazonEBS
@@ -2130,17 +2141,15 @@ AWSImport/Export支持：
 导入到AmazonGlacier
 AWsImport/Export当前不支持从AmazonEBS或AmazonGlacier导出.参考：
 https://docs.aws.amazon.com/AWSlmportExport/latest/DG/whatisdisk.html
-Q83.您正在创建Route53DNS故障转移，以将流量定向到两个EC2区域.显然，如果其中一
+Q83」您正在创建Route53DNS故障转移，以将流量定向到两个EC2区域.显然，如果其中一
 个发生故障，则您希望Route53将流量引导到另一个区域.每个区域都有一个ELB，其中分布有
 一些实例.什么是配置Route53健康检查的最佳方法？
 检查
-A.Route53不支持带有内部运行状况检查的ELB.您需要为ELB创建自己的Route 53运行状况检查
 B.Route53本机通过内部运行状况检查来支持ELB.关闭“评估目标健康”并打开“与健康检查关
 联”，R53将使用ELB的内部健康检查
 C.Route53不支持带有内部健康检查的ELB，您需要将ELB的资源记录集与您自己的健康检查
+相关联淘宝：国际认证大师微信：ANYPASS
 R53将使用ELB的内部健康检查
-D.Route53本机通过内部运行状况检查来支持ELB.打开“评估目标健康”并关闭“与健康检查关
-联”，R53将使用ELB的内部健康检查
 答案：D
 通过DNS故障转移，AmazonRoute53可以帮助您检测网站故障，并将最终用户重定向到您的
 应用程序正常运行的其他位置：启用此功能后，Route53会使用运行状况检查（从全球多个位置
@@ -2154,7 +2163,7 @@ Integration-for-dns-failover/
 Q84用户希望将EBS支持的AmazonEC2实例用于临时作业。根据输入的数据，该工作最有可
 能在一周之内完成，作业完成后，应遵循以下哪些步骤自动终止实例？
 A.使用停正实例配置EC2实例以终正它
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 B.用ELB配置EC2实例，使其在空闲时终止该实例
 C.在实例闲置后，在应执行终止操作的实例上配置CloudWatch警报
 D.配置AutoScaling计划活动，该活动将在7天后终止实例
@@ -2173,7 +2182,7 @@ B.仅当安全组仅控制一个实例的流量时，才可以修改安全组的
 C.仅当创建新实例时，才能修改安全组的规则，
 D.您可以随时修改安全组的规则.
 答案：D
-
+淘宝：国际认证大师微信：ANYPASS
 安全组充当虚拟防火墙，可控制一个或多个实例的流量，启动实例时，将一个或多个安全组与该实
 例相关联，您将规则添加到每个安全组，以允许往返于其关联实例的流量，您可以随时修改安全组
 的规则新规则将自动应用于与安全组关联的所有实例
@@ -2189,7 +2198,7 @@ B.5
 C.无限
 D.10
 答案：B
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 默认情况下，每个AWS账户每个区域的所有AWS账户限制为5个弹性IP地址因为公共（IPV4）
 Internet地址是一种稀缺的公共资源.AWS强烈建议您王要将EIP用于负载均衡用例，并将DNS
 主机名用于所有其他节点间通信
@@ -2210,6 +2219,7 @@ Aurora副本是Aurora数据库群集中的独立端点，
 15个Aurora副本可以分布在AWS区域内数据库集群所跨越的可用区中，数据库集群卷由数据库
 集群的多个数据副本组成，但是，群集卷中的数据被表示为单个实例的逻辑卷，用于主实例和数据
 库群集中的Aurora副本
+国际认证大师微信：ANYPASS
 Region
 AuroraFault Tolerance
 AvalabiityZone
@@ -2242,7 +2252,7 @@ Singie Logical Volume
 replicas
 Data Copies
 Data Coples
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 除了提供读取缩放比例之外，Aurora副本也是多可用区的目标，在这种情况下，解决方案架构师
 可以更新应用程序以从Multi-A之备用实例读取，正确：“更新应用程序以从多可用区备用实例读取”
 是正确的答案。
@@ -2264,7 +2274,7 @@ A.使用简单的缩放策略动态缩放AutoScaling组
 B.使用目标跟踪策略动态扩展AutoScaling组
 C.使用AWSLambda函数更新所需的AutoScaling组容量
 D.使用计划的缩放操作来放大和缩小AutoScaling组
-答案：B
+答案：B淘宝：国际认证大师微信：ANYPASS
 使用目标跟踪缩放策略，您可以选择缩放指标并设置目标值.AmazonEC2AutoScaling创建和管
 理CloudWatch警报，这些警报触发扩展策略并根据指标和目标值计算扩展调整.缩放策略可根据
 需要添加或删除容量，以保持指标等于或接近指定目标值，除了使度量接近目标值之外，目标跟踪
@@ -2282,7 +2292,7 @@ https://digitalcloud.training/certification-training/aws-solutions-architect-ass
 Q89公司运行托管新闻内容的多层Web应用程序，该应用程序在ApplicationLoadBalancer后
 面的AmazonEC2实例上运行，实例在多个可用区中的EC2AutoScaling组中运行，并使用
 AmazonAurora数据库
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 解决方案架构师需要使应用程序更具弹性，以应对请求率的定期增加
 解决方案架构师应采用哪种架构？（选择两个）
 A.添加AWSShield
@@ -2301,7 +2311,7 @@ AmazonCloudFront发行版放置在ALB的前面，这将缓存内容以获得更�
 恶意攻击，它不会提高性能.错误：“将AmazonTransit网关添加到可用区”是不正确的，因为这是
 用于将本地网络连接到VPC的.
 错误：“添加AmazonGlobalAccelerator终端节点”不正确，因为此服务用于根据延迟将用户定向
-到不同区域中的应用程序的不同实例.
+到不同区域中的应用程序的不同实例.大微信：ANYPASS
 参考文献：
 https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Aurora.Replication.html
 https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/lntroduction.html
@@ -2317,7 +2327,7 @@ B.AWS全球加速器
 C.亚马逊53号公路
 D.AmazonS3传输加速
 答案：A
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 AmazonCloudFront可用于使用HTTP之上分层的多种协议向全球用户流式传输视频.这可以包
 括点播视频以及实时流视频.
 正确：“AmazonCloudFront是正确的答案
@@ -2331,14 +2341,12 @@ https://aws.amazon.com/cloudfront/streaming/
 https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/on-demand-streaming
 -video.html使用我们针对考试的备忘单节省时间：
 d-content-delivery/amazon-cloudfront/
-Q91. 一家公司正在使用AWS上运行的应用程序向全球的定户提供内容。
 该应用程序在应用程序负载平衡器（ALB）后的专用子网中具有多个AmazonEC2实例
 由于版权限制的最新变化，首席信息官（CIO）希望阻正某些国家/地区的访问
 哪些动作可以满足这些要求？
 A.修改ALB安全组以拒绝来自阻止国家的传入流量
 B.修改EC2实例的安全组以拒绝来自阻止国家的传入流量
 C.使用AmazonCloudFront服务应用程序并拒绝访问被阻止的国家
-D.使用ALB侦听器规则返回对来自阻止国家/地区的传入流量的拒绝访问相应
 答案：C
 当用户请求您的内容时，CloudFront通常会提供请求的内容，而不管用户位于何处，如果需要阻
 止特定国家/地区的用户访问您的内容，则可以使用CloudFront地理限制功能执行以下操作之一：
@@ -2355,7 +2363,7 @@ https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/georestrictio
 用我们针对考试的备忘单节省时间：
 https://digitalcloud.training/certification-training/aws-solutions-architect-associate/networking-an
 d-content-delivery/amazon-cloudfront/
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 Q92.一家制造公司希望对其机械设备实施预测性维护
 该公司将安装数千个loT传感器，这些传感器会实时将数据发送到AWS.解决方案架构师的任务
 是实施一种解决方案，该解决方案将按顺序接收每个机械资产的事件，并确保保存数据以供以后
@@ -2393,7 +2401,7 @@ storedforprocessing
 KinesisDataFirehose将数据保存到AmazonS3"是正确的答案.错误：“将AmazonKinesisData
 Streams用于具有每个设备分片的实时事件：使用AmazonKinesisDataFirehose将数据保存到
 AmazonEBS"是不正确的，因为您无法从Kinesis将数据保存到EBS
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 错误：“将AmazonSQSFIFO队列用于实时事件，每台设备只有一个队列.触发SQS队列的AWS
 Lambda函数以将数据保存到AmazonEFS"是不正确的，因为SQS并不是最高效的流服务，实
 时数据.错误：“将AmazonSQS标准队列用于实时事件，每台设备一个队列.从SQS队列触发
@@ -2404,7 +2412,7 @@ https://docs.aws.amazon.com/streams/latest/dev/key-concepts.html使用我们针�
 节省时间：
 https://digitalcloud.training/certification-training/aws-solutions-architect-associate/analytics/
 amazon-kinesis/
-Q93.一家公司已在面向互联网的应用程序负载平衡器（ALB）后的VPC中部署了API.
+Q93一家公司已在面向互联网的应用程序负载平衡器（ALB）后的VPC中部署了API.
 将作为客户端使用API的应用程序部署在NAT网关后面的专用子网中的第二个帐户中
 当对客户端应用程序的请求增加时，NAT网关成本将高于预期
 解决方案架构师已将ALB配置为内部的.哪种架构更改组合可以降低NAT网关的成本？（选择两
@@ -2415,7 +2423,7 @@ B.在两个VPC之间配置一个AWSDirectConnect连接
 使用私有地址访问API.
 C.为该API配置到客户端VPC的ClassicLink连接
 使用ClassicLink地址访问APl
-D.配置API到客户端VPC的PrivateLink连接
+D.配置API到客户端VPC的PrivateLink连接师微信：ANYPASS
 使用PrivateLink地址访问API
 E.在两个帐户之间配置一个AWSResourceAccessManager连接
 使用私有地址访问API
@@ -2423,7 +2431,7 @@ E.在两个帐户之间配置一个AWSResourceAccessManager连接
 您可以在VPC中创建自己的应用程序，并将其配置为由AWSPrivateLink驱动的服务（称为终端
 服务），其他AWS负责人可以使用接口VPC终端节点创建从其VPC到终端服务的连接.您是服
 务提供者，创建到服务的连接的AWS主体是服务使用者
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 AmazonAPIGatewayService
 CustomerVPC
 Publie Subnet
@@ -2436,7 +2444,7 @@ wiaw
 EC2(PrivateiP)
 EndpointNetworkInterface
 PrivateSubnet
-
+淘宝：国际认证大师微信：ANYPASS
 此配置由AWSPrivateLink支持，客户端无需使用Intemet网关，NAT设备，VPN连接或AWS
 DirectConnect连接，也不需要公共IP地址
 另一种选择是使用VPC对等连接.VPC对等连接是两个VPC之间的网络连接，使您可以使用专
@@ -2455,16 +2463,16 @@ API不能与AWSRAM共享资源
 https://docs.aws.amazon.com/vpc/latest/userguide/endpoint-service.html
 https://docs.aws.amazon.com/vpc/latest/peering/what-is-vpc-peering.html使用我们特定于考试
 的备忘单节省时间：
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 https://digitalcloud.training/certification-training/aws-solutions-architect-associate/networking-an
 d-content-delivery/amazon-vpc/
 Q94.在AmazonEC2中，部分实例小时按
 计费
-A.每小时使用的
-B.每分钟使用
+每小时使用的A
+每分钟使用B
 C.通过将部分分段合并为完整小时
 D.全日制
-答案：C
+答案：D
 部分实例小时数将计入下一个小时
 参考：http：//aws.amazon.com/ec2/faqs/
 Q95.在EC2中，如果实例（有意或无意）重新启动，实例存储中的数据将如何处理？
@@ -2472,7 +2480,7 @@ A.出于安全原因，将从实例存储中删除数据
 B.数据保留在实例存储中.
 C.数据在实例存储中部分存在
 D.实例存储中的数据将丢失
-
+淘宝：国际认证大师微信：ANYPASS
 答案：B
 实例存储中的数据仅在其关联实例的生存期内存在，如果实例重新启动（有意或无意），则实例存
 储中的数据将保留，但是，在以下情况下，实例存储卷上的数据会丢失
@@ -2488,7 +2496,7 @@ B.子网的流量被路由到Internet网关
 C.子网的流量未路由到Intemet网关
 D.这些答案都不能视为公共子网
 答案：B
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 虚拟私有云（VPC）是专用于您的AWS账户的虚拟网络.它在逻辑上与AWS云中的其他虚拟网
 络隔离.您可以将您的AWS资源（例如AmazonEC2实例）启动到VPC中.您可以配置VPC：
 您可以选择其IP地址范围，创建子网以及配置路由表，网络网关和安全设置，子网是VPC中的IP
@@ -2523,6 +2531,7 @@ Q99.您被要求使用AmazonRedshift构建数据库仓库.您对它有所了解�
 据仓库解决方案，并使用了行业标准的ODBC和JDBC连接以及PostgreSQL驱动程序.但是，
 您不确定它用于数据库表的存储类型.AmazonRedshift对数据库表使用哪种存储方式？
 A.InnoDB表
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 B.NDB数据存储
 C.列式数据存储
 D.NDB群集存储
@@ -2533,7 +2542,6 @@ AmazonRedshift通过大规模并行处理列式数据存储以及非常有效的
 减少需要从磁盘加载的数据量
 参考：
 http://docs.aws.amazon.com/redshift/latest/dg/c_columnar_storage_disk_mem_mgmnt.html
-Q100. 您正在检查某些通用（ssd）卷和预配置IOPS(SSD)卷上的个工作负载，并且I/O延迟
 似乎比您所需的高，您可能应该检查
 ，以确保您的应用程序不会尝试驱动比您提
 供的更多的IOPS.
@@ -2542,7 +2550,7 @@ B.来自存储子系统的确认
 C.平均队列长度
 D.1/O操作完成所需的时间
 答案：C
-
+淘宝：国际认证大师微信：ANYPASS
 在EBS中，工作量需求在充分利用通用（SSD）和预配置IOPS（SSD）卷中起着重要作用，为
 了使您的卷交付可用的IOPS数量，它们需要发送足够的！/O请求，对卷的需求，对它们可用的
 IOPS数量与请求的延迟（完成I/O操作所花费的时间）之间存在关系：延迟是I/O操作的真实
@@ -2558,7 +2566,7 @@ B.弹性IP
 C.私人DNS
 D.私有IP
 答案：B
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 公共IP和DNS以及私有IP和DNS
 参考：
 http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/GettingStartedTutorial.html
@@ -2576,7 +2584,7 @@ AmazonEC2实例以增量方式添加到AutoScaling组.同样，您可以设置�
 用率较低时以相同的增量删除实例.如果负载变化可预测，则可以通过AutoScaling设置时间表
 以计划扩展活动.您可以使用AmazonCloudWatch发送警报以触发扩展活动，并可以使用Elastic
 LoadBalancing帮助将流量分配到您的AutoScaling组中的实例.AutoScaling使您能够以最佳利
-用率运行AmazonECc2机群
+用率运行AmazonECc2机群认证大州师信：ANYPASS
 参考：http://aws.amazon.com/autoscaling
 Q103.公司的旧版应用程序当前依赖于未加密的单实例AmazonRDSMySQL数据库
 由于新的合规性要求，必须加密此数据库中的所有现有数据和新数据
@@ -2593,7 +2601,7 @@ D.创建一个RDS只读副本，其中启用了静态加密
 Q104.一家公司有一个三层的图像共享应用程序，它在前端层使用AmazonEC2实例，在后端层
 使用另一个实例，而对MySQL数据库则使用第三个实例.解决方案架构师的任务是设计一个高度
 可用的解决方案，并且对应用程序的更改最少
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 哪种解决方案满足这些要求？
 A.使用AmazonS3托管前端层，并为后端层托管AWSLambda函数
 将数据库移至AmazonDynamoDB表，并使用AmazonS3存储和提供用户图像
@@ -2611,8 +2619,8 @@ D.对前端和后端层使用负载平衡的Multi-AZAWSElasticBeanstalk环境
 选项-D是正确的选择，选项-A是正确的选择，由于成本和互操作性，选项-B和选项-C超出了竞
 争范围
 具有ElasticBeanstalk和RDS的HA
-
-
+淘宝：国际认证大师微信：ANYPASS
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 Regior
 ElasticBeanstalk environment
 福
@@ -2633,6 +2641,7 @@ Avallabity Zone
 Application
 Load
 Balancer
+示讯证大师微信：ANYPASS
 RDS Standby
 AWSElasticBeanstalk
 AWSElasticBeanstalk是一项易于使用的服务，用于在熟悉的服务器（例如Apache，Nginx，
@@ -2645,7 +2654,7 @@ ElasticBeanstalk不收取额外费用-您只需支付存储和运行应用程序
 AWSRDS
 AmazonRelationalDatabaseService（AmazonRDS）使在云中轻松设置，操作和扩展关系数据
 库变得容易，它提供了具有成本效益和可调整大小的容量，同时自动执行了耗时的管理任务，例如
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 硬件供应，数据库设置，修补和备份，它使您可以将精力集中在应用程序上，从而为它们提供所需
 的快速性能，高可用性，安全性和兼容性
 AmazonRDS在多种数据库实例类型上可用-已针对内存，性能或I/O进行了优化-并为您提供了
@@ -2679,7 +2688,7 @@ C.创建一个应用程序负载平衡器
 D.创建一个应用程序负载平衡器.
 将Web层放在负载均衡器后面，然后使用AWSShieldStandard
 答案：C
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 应用程序负载均衡器（ALB）上提供了AWSWebApplicationFirewall（WAF）您可以直接在
 VPC中的ApplicationLoadBalancer（内部和外部）上使用AWSWAF，以保护您的网站和Web
 服务
@@ -2712,7 +2721,7 @@ D.AWSSnowball用于初始传输，AWSSite-to-SiteVPN用于持续连接
 DirectConnect比VPN更好：降低的成本+带宽增加+（保持连接或网络稳定）=直接连接
 Q107.全球活动的组织者希望将每日报告作为静态HTML页面放在网上：这些页面有望产生来自
 全球用户的数百万个视图.文件存储在AmazonS3存储桶中.
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 解决方案架构师已被要求设计一个有效的解决方案，解决方案架构师应采取什么行动来完成此任
 务？
 A.生成文件的预签名URL
@@ -2733,7 +2742,7 @@ AmazonCloudFront可用于在世界各地的边缘位置缓存文件，这将改�
 https://aws.amazon.com/premiumsupport/knowledge-center/cloudfront-serve-static-website/i通
 过我们针对考试的备忘单节省时间：
 https://digitalcloud.training/certification-training/aws-solutions-architect-associate/networking-an
-d-content-delivery/amazon-cloudfront
+d-content-delivery/amazon-cloudfront正大州市微信：ANYPASS
 Q108.一家公司在一组AmazonLinuxEC2实例上运行一个应用程序，该应用程序使用标准APl
 调用写入日志文件，出于合规性原因，所有日志文件必须无限期保留，并且将由必须同时访问所有
 文件的报告工具进行分析，
@@ -2748,7 +2757,7 @@ D.亚马逊S3
 S3是可大规模扩展的基于密钥的对象存储，非常适合允许从许多实例并行访问文件.AmazonS3
 也将是最具成本效益的选择.使用AWS定价计算器进行的粗略计算显示了EBS，EFS和S3
 Standard上1TB存储之间的成本差异
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 AmazonElasticBlockStore (EBS)
 AmaronEuasticFileSystem (ESS)
 Regen-Us fat lohind
@@ -2762,6 +2771,7 @@ Service(Ss)
 错误：“AmazonEC2实例存储”不正确，因为这是一个临时存储解决方案，这意味着在断电时数
 据会丢失，
 因此，这不是长期数据存储的选择
+宝：国际认证大师微信：ANYPASS
 参考文献司
 https://docs.aws.amazon.com/Amazons3/atest/dev/optimizing-performance.html使用我们针对
 考试的备忘单节省时间：
@@ -2777,7 +2787,7 @@ D.复制EC2实例的AmazonMachineImage（AMI）并为目标指定其他区域
 E.从AmazonS3复制AmazonElasticBlockStore（AmazonEBS）卷并使用该EBS卷在目标区
 域中启动EC2实例
 答案：BD
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 Q110.解决方案架构师正在设计两层Web应用程序，该应用程序由公共子网中的AmazonEC2
 托管的面向公众的Web层组成.数据库层由在私有子网中的AmazonEC2上运行的Microsoft
 SQLServer组成.安全性是公司的首要任务
@@ -2794,8 +2804,8 @@ SSL/TLS端口443上
 EC2安全组为目标.对于MySQL，端口应设置为1433.私有EC2安全组还需要允许来自公共EC2
 安全组的1433年入站流量
 可以在图中看到此配置：
-
-
+淘宝：国际认证大师微信：ANYPASS
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 VPC
 Public subnet(s)
 Securitygroup-PublicEC2
@@ -2806,7 +2816,7 @@ Private subnet(s)
 Securitygroup-PrivateEC2
 Inbound:Protocol/PortHTTP/1433Source:PublicALB
 WebFront-End
-
+淘宝：国际认证大师微信：ANYPASS
 正确的：“配置Web层的安全组以允许端口0.0.0.0/0上的端口443上的入站流量是正确的答案
 正确：“将数据库层的安全组配置为允许来自Web层的安全组的端口1433上的入站流量”也是正
 确的答案，不正确：“配置Web层的安全组以允许端口0.0.0.0/0上的端口443上的出站流量”不正
@@ -2819,10 +2829,10 @@ https://docs.aws.amazon.com/vpc/latest/userguide/VPC_SecurityGroups.html使用�
 试的备忘单节省时间：
 https://digitalcloud.training/certification-training/aws-solutions-architect-associate/networking-an
 d-content-delivery/amazon-vpc/
-Q111. 需要存储以进行每晚日志处理，日志的大小和数量是未知的，并将仅保留24
 小时
 什么是最具成本效益的解决方案？
-A.亚马逊S3冰川
+A亚马逊S3冰川
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 B.AmazonS3标准
 C.AmazonS3智能分层
 D.AmazonS3一区不频繁访问(S3OneZone-IA）
@@ -2845,7 +2855,7 @@ https://aws.amazon.com/s3/storage-classes/
 https://digitalcloud.training/certification-training/aws-solutions-architect-associate/storage/
 amazon-s3/
 Q112.一家公司正在使用单个AmazonEC2实例在AWS上托管Web应用程序，该实例将用户
-上传的文档存储在AmazonEBs卷中
+上传的文档存储在AmazonEBs卷中.证正大州微信：ANYPASS
 为了获得更好的可伸缩性和可用性，该公司复制了体系结构，并在另一个可用区中创建了第二个
 EC2实例和EBS卷：将两者都放置在ApplicationLoadBalancer之后
 完成此更改后，用户报告说，每次刷新网站时，他们可以看到其文档的一个子集或另一个，但是
@@ -2863,7 +2873,7 @@ A.数据库参数组
 B.阅读副本
 C.多可用区数据库实例部署
 D.数据库快照
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 答案：B
 通过只读副本，可以轻松利用MySQL的内置复制功能来弹性扩展到单个数据库实例的容量限制之
 外，以处理读取繁重的数据库工作负载，在多种情况下，为给定的源数据库实例部署一个或多个只
@@ -2881,7 +2891,7 @@ B.取决于访问类型
 C.没有
 D.是的
 答案：D
-
+淘宝：国际认证大师微信：ANYPASS
 AmazonDynamoDB与AWSIdentityandAccessManagement（IAM）集成.您可以使用AWS
 IAM授予对AmazonDynamoDB资源和API操作的访问权限.为此，您首先要编写一个AWSIAM
 策略，该文档明确列出了您要授予的权限.然后，您将该策略附加到AWSIAM用户或角色
@@ -2897,7 +2907,7 @@ B.AmazonGlacier使用比AmazonS3少的加密方法使用AES-128自动加密数�
 C.AmazonGlacier与AmazonS3一样，使用AES-256自动加密数据
 D.AmazonGlacier使用AES-128自动加密数据，这是一种比AmazonS3少的加密方法
 答案：C
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 与AmazonS3类似，AmazonGlacier服务提供了低成本，安全和持久的存储，但是，在S3设计
 用于快速检索的情况下，Glacier旨在用作不经常访问的数据的归档服务，并且其检索时间为几个
 小时是合适的
@@ -2916,7 +2926,7 @@ D.首次访问新创建或恢复的EBS卷上的每个数据块时，IOPS降低�
 繁的快照可以提供更高级别的数据持久性，
 但是在快照进行过程中，它们可能会稍微降低应用程
 序的性能，当您拥有快速变化的数据时，这种折衷变得至关重要尽可能计划在非高峰时间进行快
-照，以最大程度地减少工作负载影响
+照，以最大程度地减少工作负载影响，证大州师微信：ANYPASS
 参考：http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSPerformance.html
 Q117.您已经创建了第一个负载均衡器，并已在负载均衡器中注册了EC2实例.ElasticLoad
 Balancing会定期对所有已注册的EC2实例执行运行状况检查，并自动将所有传入的请求分配到
@@ -2931,7 +2941,7 @@ D.IPv6
 应超时时间和运行状况检查间隔之类的信息来确定向负载均衡器注册的实例的运行状况
 当前，端口80上的HTTP是默认的运行状况检查
 参考：
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 http://docs.aws.amazon.com/ElasticLoadBalancing/latest/DeveloperGuide/TerminologyandKey
 Concepts.html
 Q118.一家大型财务组织已聘请您的公司来建立大型数据挖掘应用程序使用AWS，您可以确定
@@ -2949,7 +2959,7 @@ AmazonEMR使用ApacheHadoop作为其分布式数据处理引擎.Hadoop是一种�
 该框架已被开发人员，企业和初创企业广泛使用，并已被证明是用于在数千个商用机器的集群上
 处理多达PB数据的可靠软件平台.
 参考：http：llaws.amazon.com/elasticmapreduce/faqs
-
+淘宝：国际认证大师微信：ANYPASS
 Q119.在AmazonEC2容器服务中，是否支持其他容器类型？
 A.是的，EC2容器服务支持您需要的任何容器服务
 B.是的，EC2容器服务还支持Microsoft容器服务
@@ -2964,7 +2974,7 @@ HTTP和HTTPS访问该应用程序
 架构师应如何设计交通管制要求？
 A使用网络ACL允许HTTP和HTTPS的出站端口.拒绝入站和出站的其他流量
 B.使用网络ACL允许HTTP和HTTPS的入站端口.拒绝入站和出站的其他流量
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 C.在Web服务器使用的安全组中允许HTTP和HTTPS的入站端口.
 D.允许Web服务器使用的安全组中的HTTP和HTTPS出站端口
 答案：C
@@ -3002,7 +3012,7 @@ B.将网站内容复制到AmazonS3存储桶
 配置存储桶以提供静态网页内容
 以S3存储桶为源配置AmazonCloudFront
 C.将网站内容复制到AmazonEBS支持的网站
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 运行ApacheHTTPServer的AmazonEC2实例
 配置AmazonRoute53地理位置路由策略以选择最接近的来源
 D.将网站内容复制到多个由AmazonEBS支持的网站
@@ -3038,7 +3048,7 @@ E.使用AWSKMS加密存储桶
 答案：BD
 没有一个选项为指定编写和修改对象所需的权限提供了一个好的解决方案，因此需要单独处理该
 要求，其他要求是为了防止意外删除，并确保文档的所有版本均可用，满足这些要求的两个解决方
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 是正确的答案.正确：“在存储桶上启用MFA删除”也是正确的答案，错误：“在存储桶上设置只读
 权限”
 错误：“将IAM策略附加到存储桶是不正确的，因为用户需要修改文档，这也将允许删除.因此，
@@ -3050,7 +3060,6 @@ https://docs.aws.amazon.com/AmazonS3/latest/dev/UsingMFADelete.html通过我们�
 作弊来节省时间床单：
 https://digitalcloud.training/certification-training/aws-solutions-architect-associate/storage/
 amazon-s3/
-Q124.一家公司构建了一个食品订购应用程序，可以捕获用户数据 并将其存储以备将来分析
 该应用程序的静态前端部署在AmazonEC2实例上.前端应用程序将请求发送到在单独的EC2实
 例上运行的后端应用程序
 然后，后端应用程序将数据存储在AmazonRDS中，解决方案架构师应采取什么措施才能使架构
@@ -3075,7 +3084,7 @@ D.使用AmazonS3服务静态前端应用程序，并将请求发送到AmazonAPIG
 由于无法使用自动缩放功能，因此选项B将不在比赛中，由于不具备解耦功能，所以选件A不会
 出现在比赛中.由于所有3种组合比赛，选项C和D将参加比赛，选项D将是正确答案.解耦=SQS
 队列；可伸缩=ASG和选项C将由于静态选项不可用而松动
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 参考：
 使用我们特定于考试的备忘单节省时间：
 https:l/digitalcloud.training/certification-training/aws-solutions-architect-associate/networking-an
@@ -3111,9 +3120,8 @@ Q126.
 A.将AmazonS3与ransferAcceleration一起使用以托管应用程序
 B.使用带有CacheControl标头的AmazonS3托管应用程序
 C.将AmazonEC2与AutoScaling和AmazonCloudFront一起使用来托管应用程序
-D.将AmazonEC2与AutoScaling和Amazon ElastiCache一起使用来托管应用程序
 答案：A
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 Q127.1
 1一家公司从多个网站捕获点击流数据，并使用批处理对其进行分析
 数据每天晚上加载到AmazonRedshift中，并由业务分析师使用.该公司希望转向近实时数据处
@@ -3150,8 +3158,7 @@ D.创建一个AmazonAuroraMySQLMulti-Az数据库集群
 并使现
 有的MySQL应用程序和工具无需修改即可运行
 https://aws.amazon.com/rds/aurora/mysql-features/
-
-Q129.一家初创公司有一个基于us-east-1 Region 的web应用程序，其中多个Amazon EC2实
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 例在跨多个可用区的ApplicationLoadBalancer后面运行.随着公司在us-west-1地区的用户群的
 增长，它需要一种具有低延迟和高可用性的解决方案，
 解决方案架构师应该怎么做才能做到这一点？
@@ -3171,9 +3178,7 @@ ELB在一个区域内提供负载平衡AWSGlobalAccelerator在多个区域提供
 应用程序设置全局接口区域的数量，如果您的工作负载可以满足全球客户群的需求，我们建议您使
 用AWSGlobalAccelerator：如果您的工作负载托管在单个AWS区域中，并且由同一区域内和附
 近的客户端使用，则可以使用应用程序负载平衡器或网络负载平衡器来管理您的资
-源."https:laws.amazon.com/global-accelerator/fads/
-
-Q130. 一家公司计划将关键业务数据集迁移到Amazon S3，当前的解决方案设计在use-east-1区
+源."https:laws.amazon.com/global-accelerator/fads/微信：ANYPASS
 域中使用单个S3存储桶，并启用版本控制来存储数据集
 该公司的灾难恢复策略规定，所有数据都属于多个AWS区域.解决方案架构师应如何设计S3解
 决方案？
@@ -3189,7 +3194,7 @@ D.在另一个区域中创建另一个带有版本控制的S3存储桶，并配�
 区域复制”是正确的答案
 错误：“在另一个区域中创建另一个S3存储桶并配置跨区域复制是不正确的，因为目标存储桶也
 必须启用了版本控制.错误：“在另一个区域中创建其他S3存储桶并配置跨域资源共享（CORS）”
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 不正确，
 因为CORS与复制无关错误：由于CORS与复制无关，因此在另一个区域中创建具
 参考文献：
@@ -3208,7 +3213,7 @@ D.在与EC2实例相同的Region中创建一个S3存储桶.
 S3和DynamoDB的网关端点
 https://medium.com/tensult/aws-vpc-endpoints-introduction-ef2bf85c4422
 https://docs.aws.amazon.com/vpc/latest/userguide/vpc-endpoints-s3.htmlhttps:/ldocs.
-aws.amazon.com/vpc/latest/userguide/vpce-gateway.html
+aws.amazon.com/vpc/latest/userguide/vpce-gateway.html文1言：ANYPASS
 Q132.公司的Web应用程序使用AmazonRDSPostgreSQL数据库实例存储其应用程序数据
 在每个月初的财务结算期间由于使用率很高，会计人员会运行大型查询，这些查询会影响数据库
 的性能.
@@ -3223,7 +3228,7 @@ AmazonRDS使用MariaDB，MySQL，Oracle，PostgreSQL和MicrosoftSQLServer数据�
 擎的内置复制功能来创建一种特殊类型的数据库实例，称为从源数据库实例的只读副本，对源数据
 库实例所做的更新将异步复制到只读副本您可以通过将读取查询从应用程序路由到只读副本来
 减轻源数据库实例的负载
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 Q133.公司必须在每个月初生成销售报告该报告流程在每月的第一天启动20个AmazonEC2
 实例，该过程运行7天，不能中断，该公司希望将成本降到最低
 公司应选择哪种定价模式？
@@ -3240,7 +3245,7 @@ D.预定的预留实例
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-scheduled-instances.html
 Q134」一家公司在多个ApplicationLoadBalancer后面托管一个网站.该公司对其内容在世界各
 地具有不同的发行权，解决方案架构师需要确保为用户提供正确的内容而又不侵犯发行权
-解决方案架构师应选择哪种配置来满足这些要求？
+解决方案架构师应选择哪种配置来满足这些要求？巾微信：ANYPASS
 A.使用AWSWAF配置AmazonCloudFront.
 B.使用AWSWAF配置应用程序负载平衡器
 C.使用地理位置策略配置AmazonRoute53
@@ -3255,7 +3260,7 @@ RDS数据库实例大大降低了内部系统的数据获取速度，这会影�
 哪种解决方案可以改善网站的性能？
 A.使用RDSPostgreSQL数据库实例而不是MySQL数据库
 B.使用AmazonElasticache缓存网站的查询响应
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 C.向当前的RDSMySQLMulti.AZ数据库实例添加一个额外的可用区
 D.将一个只读副本添加到RDS数据库实例，并配置内部系统以查询该只读副本
 答案：D
@@ -3289,7 +3294,7 @@ Sign-On（AWSSSO）
 小化管理员=从任何EC2中删除AD
 ->使用AWS目录服务
 ActiveDirectory连接器仅适用于ON-PREMAD.它们已经存在于云中
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 Q138：一家公司在没有虚拟化计算资源的小型数据柜内的分支机构中运行应用程序
 应用程序数据存储在NFS卷上.遵从性标准要求每天对NFS卷进行异地备份
 哪种解决方案满足这些要求？
@@ -3297,7 +3302,7 @@ A.在本地安装一个AwSStorageGateway文件网关，以将数据复制到Amaz
 B.在内部安装一个AwSStorageGateway文件网关硬件设备，以将数据复制到AmazonS3
 C.在内部安装带有存储卷的AwSStorageGateway卷网关，以将数据复制到AmazonS3
 D.在本地安装具有缓存卷的AWSStorageGateway卷网关，以将数据复制到AmazonS3
-答案: A
+答案口
 说明
 关键字：NFS+合规性
 文件网关提供了一个虚拟的本地文件服务器，使您可以将文件作为对象存储和检索在AmazonS3
@@ -3305,8 +3310,8 @@ D.在本地安装具有缓存卷的AWSStorageGateway卷网关，以将数据复�
 中数据的基于SMB或NFS的访问
 文件网关
 AWS存储网关
-
-
+淘宝：国际认证大师微信：ANYPASS
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 WS
 Corporate
 AWS Cloud
@@ -3329,9 +3334,10 @@ provideslowlatencyaccess
 S3OneZone IA
 VMware,orEC2
 to recentlyuseddata
-
+淘宝：国际认证大
+师微信：ANYPASS
 下表显示了可用的不同网关以及接口和用例：
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 NewName
 Interface
 OldName
@@ -3362,8 +3368,8 @@ Virtualmedia changerandtape libraryforuse
 Library
 withexistingbackup software
 存储网关概述
-
-
+淘宝：国际认证大师微信：ANYPASS
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 On-Premibes
 Lifecycle
 AnazonSs
@@ -3396,8 +3402,11 @@ Amazon53
 S3Gacer&
 BackupApplication
 TapeGatewa
+ANYPASS
 S3Gaceg DepArchie
 likd coche
+国际认证大师
+微信：
 GatewayDeployment opticrs
 Msane, Hyper-V.K
 Drhardwareapplanse
@@ -3414,7 +3423,7 @@ https://do.awsstatic.com/whitepapers/aws-storage-gateway-file-gateway-for-混合
 使用我们特定于考试的备忘单节省时间：
 https://digitalcloud.training/certification-training/aws-solutions-architect-associate/storage/aws
 storage-gateway/
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 Q139.AWS上托管的应用程序遇到性能问题，应用程序供应商希望对日志文件进行分析以进一步
 排除故障，日志文件存储在AmazonS3上，大小为10GB
 应用程序所有者将在有限的时间内使日志文件对供应商可用。
@@ -3433,7 +3442,7 @@ LoadBalancer后面使用多个AmazonC2实例
 A.重新设计应用程序以使用AmazonCloudFront
 B.重新设计应用程序以使用AWSElasticBeanstalk
 C.重新设计应用程序以使用网络负载平衡器.
-D.重新设计应用程序以使用AmazonS3静态网站托管
+D.重新设计应用程序以使用AmazonS3静态网站托管，微信：ANYPASS
 答案：A
 Q141，解决方案架构师观察到，在达到所需的AmazonEC2容量之前，夜间批处理作业会自动
 扩大1小时.每天晚上的峰值容量是相同的，并且批处理作业始终在凌晨1点开始，解决方案架构
@@ -3449,7 +3458,7 @@ Q142.一家电子商务公司正在AWS上运行多层应用程序.前端和后�
 据库返回相同的数据集，这会导致性能下降，应该采取什么措施来提高后端的性能？
 A.实施AmazonSNS来存储数据库调用
 B.实现AmazonElastiCache以缓存大型数据集
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 C.为MySQL只读副本实现RDS以缓存数据库调用
 D.实施AmazonKinesisDataFirehose以将调用流式传输到数据库
 答案：B
@@ -3467,7 +3476,7 @@ B.在公共子网中使用NAT网关
 C.在专用子网中使用NAT实例
 D.使用连接到VPC的Internet网关
 答案：A
-
+淘宝：国际认证大师微信：ANYPASS
 说明
 关键字：专用子网+应用程序需要访问DynamoDB
 条件：流量不会离开AWS网络
@@ -3482,7 +3491,7 @@ VPC预约
 端服务）以及支持的AWSMarketplace合作伙伴服务
 通过区域间VPC对等进行AWSPrivateLink访问：
 AWSVPC中的应用程序可以跨AWS安全访问AWSPrivateLink终端节点
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 使用区域间VPC对等的区域
 AWSPrivateLink允许您以高可用性私有访问AWS上托管的服务
 和可扩展的方式，而无需使用公共IP，也不需要流量通过Internet.
@@ -3502,6 +3511,9 @@ ElasticNetworkInterfacewitha
 Agatewaythat is a targetforaspecific
 PrivateIP
 route
+国际认证大师
+淘宝：
+信：ANYPASS
 How
 UsesDNSentriestoredirecttraffic
 Usesprefixlistsintheroutetableto
@@ -3520,7 +3532,7 @@ https:/lyoutu.be/jZAvKgqlrjY
 https://digitalcloud.training/certification-training/aws-solutions-architect-associate/networking-an
 d-content-delivery/amazon-vpc/
 https://tutorialsdojo.com/amazon-vpc/
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 Q145.解决方案架构师需要为使用自定义域名的用户访问的静态单页应用程序设计低延迟解决方
 案.该解决方案必须是无服务器的，在传输过程中经过加密且具有成本效益
 解决方案架构师应使用哪种AWS服务和功能组合？（选择两个，）
@@ -3547,7 +3559,7 @@ AWS区域表中列出的多个AWS区域中的终端节点
 （或者，也可以
 不使用GlobalAccelerator提供的IP地址，而是将这些入口点配置为来自您自已带到Global
 Accelerator的IP地址范围内的IPv4地址：）
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 UsestheAwS
 Addresses:
 globalnetwork
@@ -3566,7 +3578,7 @@ AmazonRoute53
 53.58.31.89
 Staticanycast IP
 addresses
-
+淘宝：国际认证大师微信：ANYPASS
 静态IP地址是从AWS边缘网络播送的，并在多个AWS区域中的多个终端资源之间分配传入应
 用程序流量，从而提高了应用程序的可用性端点可以是网络负载平衡器，应用程序负载平衡器，
 EC2实例或位于一个AWS区域或多个区域中的弹性IP地址
@@ -3586,7 +3598,7 @@ Q147.一个应用程序需要几年的开发环境（DEV）和生产环境（PRO
 作时间内每天运行10个小时，而PROD实例将每天运行24小时.解决方案架构师需要确定计算
 实例购买策略，以最大程度地降低成本，
 哪种解决方案最有效？
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 A.具有竞价型实例的DEV和具有按需实例的PROD
 B.带按需实例的DEV和带竞价实例的PROD
 C.具有预定保留实例的DEV和具有保留实例的PROD
@@ -3607,7 +3619,7 @@ D.将AmazonRDS与预置IOPS结合使用
 启用数据库审核参数
 每5小时执行一次数据库快照
 E.将AmazonRDS与自动缩放一起使用.
-启用数据库审核参数
+启用数据库审核参数.国际认证大师微信：ANYPASS
 将备份保留期配置为至少1天
 答案：AB
 Q149.AmazonS3上的一个网站.该网站每月提供PB级的出站流量，这占了公司大部分AWS
@@ -3619,7 +3631,7 @@ D.重新设计网站，使其在AmazonAPIGateway和AWSLambda的组合上运行.
 答案：A
 Q150.
 解决方案架构师创建了两个IAM策略：Policy1和Policy2.这两个策略都附加到IAM组
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 Policy1
 "Effect":"Allow",
 "Action":[
@@ -3637,13 +3649,12 @@ Policy2
 A.删除1AM用户
 B.删除目录
 C.删除AmazonEC2实例
-D.缺省选项
 答案：B
 Q151.解决方案架构师正在帮助开发人员使用AWS服务设计新的电子商务购物车应用程序，开
 发人员不确定当前的数据库架构，并希望随着电子商务网站的发展而进行更改，该解决方案必须具
 有高度的弹性，并能够自动扩展读写容量
 哪个数据库解决方案满足这些要求？
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 A.AmazonAuroraPostgreSQL
 B.启用按需的AmazonDynamoDB
 C.启用了DynamoDB流的AmazonDynamoDB
@@ -3657,12 +3668,12 @@ B.使用集群放置策略的放置组，
 C.使用分区放置策略的放置组
 D.具有按需实例类型的AutoScaling组
 答案：B
-Q153.公司的Web应用程序具有零星的使用模式每个月初都有大量使用量，每周初有中等量使
+Q153公司的Web应用程序具有零星的使用模式每个月初都有大量使用量，每周初有中等量使
 用量，一周中有不可预测的使用量.该应用程序由一个Web服务器和一个运行在数据中心内部的
 MySQL数据库服务器组成.该公司希望将应用程序移至AWSCloud，并需要选择一个经济高效的
 数据库平台，而无需修改数据库
 哪种解决方案可以满足这些要求？
-A.AmazonbynamoDB
+AAmazonbynamoDB国际认证大师微信：ANYPASS
 B.适用于MySQL的AmazonRDS
 C.与MySQL兼容的AmazonAuroraServerless
 D.在AutoScaling组中部署在AmazonEC2上的MySQL
@@ -3678,7 +3689,7 @@ E.适用于SQLServer标准版Mufti-AZ的AmazonRDS
 答案：DE
 Q155.一家媒体公司正在评估将其系统迁移到AWS云的可能性.该公司至少需要10TB的存储
 并具有用于视频处理的最大可能的1/O性能.300TB的非常耐用的存储空间可用于存储媒体内
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 容，而900TB的存储空间可满足不再使用的存档媒体的要求，解决方案架构师应推荐哪些服务来
 满足这些要求？
 A.AmazonEBS提供最佳性能，AmazonS3提供持久性数据存储，AmazonS3Glacier提供档案
@@ -3700,7 +3711,7 @@ A.AmazonEBS冷硬盘（sc1）
 B.AmazonEBS通用SSD（gp2）
 C.AmazonEBS预置的IOPSSSD（io1）
 D.AmazonEBS吞吐量优化的硬盘（st1）
-
+淘宝：国际认证大师微信：ANYPASS
 答案：B
 通用SSD（gp2）卷提供了经济高效的存储，非常适合各种工作负载，这些卷可提供单位毫秒的延
 迟，并能够长时间扩展至3.000IOPS.
@@ -3718,7 +3729,7 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-volume-types.html使用�
 考试的备忘单节省时间：
 https://digitalcloud.training/certification-training/aws-solutions-architect-associate/compute/
 amazon-ebs/
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 Q157.一家公司将AmazonS3中的文件交付给某些没有AWS凭证的用户，必须为这些用户授予
 有限的访问权限.解决方案架构师应该怎么做才能安全地满足这些要求？
 A.在AmazonS3存储桶上启用公共访问
@@ -3737,11 +3748,10 @@ B.使用AmazonS3Glacier存储类存储语句.创建生命周期策略，以在30
 S3GlacierDeepArchive存储
 C.使用AmazonS3Standard存储类存储语句.创建生命周期策略，以在30天后将语句移至
 AmazonS3一次区域不频紧访问（S3OneZone-IA）存储
-D.使用S3 Standard-IA存储类存储语句
 创建生命周期策略，以在30天后将语句移至AmazonS3Glacier存储
-
+淘宝：国际认证大师微信：ANYPASS
 答案：D
-Q159.解决方案架构师正在将静态内容从AmazonEC2实例上托管的公共网站移动到Amazon
+Q159]解决方案架构师正在将静态内容从AmazonEC2实例上托管的公共网站移动到Amazon
 S3存储桶.AmazonCloudFront发行版将用于交付静态资产，EC2实例使用的安全组将访问限制
 为一组有限的IP范围，同样，对静态内容的访问也应受到限制哪些步骤组合可以满足这些要求？
 （选择两个）
@@ -3757,7 +3767,7 @@ E.创建一个新的1AM角色，并将该角色与分发相关联.在S3存储桶
 权限，以便只有新创建的1AM角色才具有读取和下载权限.
 答案：AB
 原始答案是CE，现更正为AB，
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 Q160一家公司有一个大型MicrosoftSharePoint部署在本地运行，需要MicrosoftWindows共
 享文件存储该公司希望将此工作负载迁移到AWSCloud，并正在考虑各种存储选项.存储解决
 方案必须具有高可用性，并且必须与ActiveDirectory集成以进行访问控制
@@ -3776,8 +3786,8 @@ D.在AWS上为Windows文件服务器创建AmazonFSx文件系统，并设置Activ
 存储并更改文件系统的吞吐量性能可从Windows，Linux和MacOS计算实例以及在AWS或本
 地运行的设备访问AmazonFSx文件存储
 与MicrosoftActiveDirectory（AD）配合使用可轻松将文件系统与Windows环境集成在一起
-
-
+淘宝：国际认证大师微信：ANYPASS
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 Region
 VPC
 Availability Zone
@@ -3796,7 +3806,9 @@ Public subnet
 AWSManaged
 Microsof AD
 Withmult-AZa
-standbycan be instance
+standbycan be
+淘EC2 instance
+国际认证大师微信：
 createdinanother
 ANYAZASS
 (Windows)
@@ -3814,7 +3826,7 @@ https://docs.aws.amazon.com/fsx/latest/WindowsGuide/high-availability-multiAz.ht
 使用我们特定于考试的备忘单节省时间：
 https://digitalcloud.training/certification-training/aws-solutions-architect-associate/storage/
 amazon-fsx/
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 Q161.一家公司在VPC中使用使用分层目录结构的应用程序运行多个AmazonEC2Linux实例
 应用程序需要快速并发地对共享存储进行读写操作如何实现？
 A.创建一个AmazonEFS文件系统，并从每个EC2实例安装它，
@@ -3834,8 +3846,8 @@ C.创建一个安全组，该安全组允许从AmazonECS到AmazonS3的访问，�
 D.创建一个具有S3权限的1AM用户，然后以该帐户身份登录时重新启动ECS集群的Amazor
 EC2实例.
 答案：B
-Q163.解决方案架构师已配置以下1AM策略
-
+Q163.解决方案架构师已配置以下1AM策略太师微信：ANYPASS
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 "Ver:ion":"2012-10-17"
 "statement":{
 "Etfect":"Allow",
@@ -3852,15 +3864,14 @@ Q163.解决方案架构师已配置以下1AM策略
 "condition":{
 "IpAddress":{
 "avs:SourceIp":"220.100.16.0/20"
-
+淘宝：国际认证大师微信：ANYPASS
 1
 该政策将允许采取哪种行动？
 A.可以从任何网络删除AWSLambda函数
 B.可以从任何网络创建AWSLambda函数
 C.可以从100.220.0.0/20网络中删除AWSLambda函数
-D.缺省选项
 答案：C
-Q164.
+Q164]
 一个网站运行一个Web应用程序，该应用程序每天中午都会收到大量流量，用户每天上
 传新图片和新内容，但一直抱想超时.该架构使用AmazonEC2AutoScaling组，并且自定义应
 用程序始终在启动时花费1分钟在响应用户请求之前启动.解决方案架构师应如何重新设计架构，
@@ -3868,7 +3879,7 @@ Q164.
 A.使用慢启动配置配置网络负载均衡器
 B.将AWSElastiCacheforRedis配置为将直接请求卸载到服务器
 C.使用实例预热条件配置AutoScaling步骤扩展策略
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 D.将AmazonCloudFront配置为使用应用程序负载均衡器作为源
 答案：D
 Q165.一家公司的网站在两个可用区中的AmazonEC2实例上运行.该公司预计特定假期的流量
@@ -3886,7 +3897,7 @@ B.在应用程序负载平衡器上配置安全组
 C.在VPC中的ApplicationLoadBalancer上配置AWSWAF.
 D.为包含EC2实例的子网配置网络ACL
 答案：C
-
+淘宝：国际认证大师微信：ANYPASS
 Q167
 一家公司在本地存储了150TB的存档图像数据，需要在下个月内将其修剪到AWS云中
 该公司当前的网络连接仅在夜间允许最多100Mbps的上传.什么是最经济有效的机制来移动这
@@ -3905,7 +3916,7 @@ A.将SQS队列替换为AmazonKinesisDataFirehose.
 B.在DynamoDB后端层前面使用AmazonElastiCacheforRedis
 C.添加一个AmazonCloudFront发行版以缓存Web层的响应
 D.使用AmazonEC2AutoScaling根据SOS队列深度扩展中间层实例.
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 答案：D
 Q169.一家公司希望在AWS上托管一个Web应用程序，该应用程序将与VPC中的数据库进行
 通信：
@@ -3917,14 +3928,13 @@ B.在具有多个Web服务器的AutoScaling组的多个可用区中部署负载�
 中部署AmazonRDS.
 C.在具有用于Web服务器的AutoScaling组的公共子网中部署负载均衡器，然后在专用子网中的
 AmazonEC2实例上部署数据库
-D.部署具有AutoScaling组的两个Web服务器，配置指向两个web服务器的域，然后在多个可
 用区中部署数据库体系结构
 答案：B
 Q170.一家公司正在迁移到AWS云.文件服务器是第一个要迁移的工作负载.用户必须能够使用
 服务器消息块（SMB）协议防问文件共享，哪些AWS托管服务符合这些要求？
 A.亚马逊EBS
 B.亚马逊EC2
-C.AmazonFsx
+C.AmazonFsx：国际认证大师微信：ANYPASS
 D.亚马逊S3
 答案：C
 说明
@@ -3940,7 +3950,7 @@ AmazonFSx构建在WindowsServer上，并提供了丰富的管理功能集，其�
 不正确：“AmazonEC2"不正确，因为没有SMB支持，不正确：“AmazonS3不正确，因为这不
 是Microsoft文件系统的合适替代品
 参考文献：
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 https://docs.aws.amazon.com/fsx/latest/WindowsGuide/high-availability-multiAz.html
 使用我们特定于考试的备忘单节省时间：
 https://digitalcloud.training/certification-training/aws-solutions-architect-associate/storagel
@@ -3959,7 +3969,7 @@ D.将AmazonElastiCacheforRedis缓存添加到应用程序堆栈，更新应用�
 说明
 AmazonDynamoDBAccelerator（DAX）是一个完全托管的，高度可用的内存缓存可以将Amazon
 DynamoDB响应时间从毫秒减少到微秒，甚至每秒数百万个请求也是如此
-
+淘宝：国际认证大师微售
 ANYP
 2
 App
@@ -3978,15 +3988,14 @@ DynamoDB只读副本不正确，因为它主要用于自动执行表和全局二
 https://aws.amazon.com/dynamodb/dax
 https:llaws.amazon.com/device-farm
 查看此AmazonDynamoDB备忘单：
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 https://tutorialsdojo.com/aws-cheat-sheet-amazon-dynamodbl
 Q172一家公司希望将AWS区域用作其本地基础架构的灾难恢复位置.该公司拥有10TB的现
 有数据，而内部数据中心具有1Gbps的互联网连接，解决方案架构师必须找到一个解决方案，以
 便公司可以在72小时内将其现有数据存储在AWS上，而无需使用未加密的通道进行传输.解决
 方案架构师应选择哪种解决方案？
-A.使用FTP将最初的10TB数据发送到AWS
+A使用FTP将最初的10TB数据发送到AWS
 B.使用AWSSnowball将最初的1OTB数据发送到AWS
-C.在Amazon VPC与公司的数据中心之间建立VPN连接
 D.在AmazonVPC与该公司的数据中心之间建立AWSDirectConnect连接
 答案：C
 关键字：AWS区域作为本地DC的DR（现有数据=1OTB）+1GInternet连接
@@ -4007,17 +4016,16 @@ https://digitalcloud.training/certification-training/aws-solutions-architect-ass
 d-content-delivery/amazon-vpc/
 https://tutorialsdojo.com/aws-direct-connect/
 https://tutorialsdojo.com/amazon-vpcl
-Q173.Web应用程序在ApplicationLoadBalancer后面的AmazonEC2实例上运行.该应用程序
+Q173Web应用程序在ApplicationLoadBalancer后面的AmazonEC2实例上运行.该应用程序
 允许用户创建历史天气数据的自定义报告.生成报告最多可能需要5分钟.这些长时间运行的请
 求使用许多可用的传入连接，从而使系统对其他用户无响应.解决方案架构师如何使系统更具响应
 能力？
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 A.将AmazonSQS与AWSLambda一起使用可生成报告
 B.将应用程序负载平衡器上的空闲超时增加到5分钟
 C.更新客户端应用程序代码以将其请求超时增加到5分钟
 D.将报告发布到AmazonS3，并使用AmazonCloudFront下载到用户。
 答案：A
-Q174.一家公司决定将其三层web应用程序从本地迁移到AWS Cloud，新数据库必须能够动态
 扩展存储容量并执行表联接
 哪种AWS服务符合这些要求？
 A.亚马逊极光
@@ -4029,8 +4037,7 @@ Q175.一家公司在ELB应用程序负载均衡器后面的AmazonEC2实例上运
 Route53用于DNS.该公司希望建立一个备份网站，其中包含一条消息，其中包括主站点关闭时
 用户可以访问的电话号码和电子邮件地址.
 公司应如何部署此解决方案？
-A.将AmazonS3网站托管用于备份网站和Route53故障转移路由策略
-B.将AmazonS3网站托管用于备份网站和Route53延迟路由策略
+A将AmazonS3网站托管用于备份网站和Route53故障转移路由策略
 C.在另一个AWS区域中部署应用程序，并使用ELB运行状况检查进行故障转移路由
 D.在另一个AWS区域中部署应用程序，并在主网站上使用服务器端重定向
 答案：A
@@ -4042,11 +4049,10 @@ B.AmazonDynamoDB全局表
 C.启用了多可用区的适用于MySQL的AmazonRDS
 D.具有跨区域快照副本的AmazonRDSforMySQL
 答案：A
-Q177. 一家运行本地应用程序的公司正在将将用程序迁移到AWS, 以提高其弹性和可用性，当前
 体系结构使用具有大量读取活动的MicrosoftSQLServer数据库.该公司希望探索其他数据库选
 项，并在需要时迁移数据库引擎，开发团队每隔4个小时对生产数据库进行一次完整复制，以填充
 测试数据库，在此期间，用户会遇到延迟，解决方案架构师应该推荐什么作为替代数据库？
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 A.将AmazonAurora与Multi-AzAurora副本一起使用，并从mysqldump恢复测试数据库
 B.将AmazonAurora与Multi-AzAurora副本一起使用，并从AmazonRDS还原测试数据库的快
 照.
@@ -4076,7 +4082,6 @@ C.在存储的卷配置中使用AWSStorageGateway卷网关定期对本地数据�
 D.在缓存的卷配置中使用AwSStorageGateway卷网关来备份AWS云中的所有本地存储，然后
 对云中的此数据执行分析
 答案：A
-Q180.公司必须重新评估对Auto Scaling组中当前 已配置的Amazon EC2实例的需求，当前，
 AutoScaling组配置为在两个可用区中最少两个实例，最多四个实例.解决方案架构师检查了
 AmazonCloudWatch指标，发现EC2实例的CPU利用率始终较低.解决方案架构师应建议什么，
 以在确保应用程序保持容错能力的同时最大化利用率？
@@ -4085,7 +4090,7 @@ B.增加CPU利用率较低的实例的AmazonElasticBlockStore（AmazonEBS）容�
 C.修改AutoScaling组扩展策略，以基于更高的CPU利用率指标进行扩展和扩展
 D.创建一个使用较小实例类型的新启动配置.更新现有的AutoScaling组
 答案：D
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 Q181.公司的网站为用户提供了可下载的历史绩效报告，该网站需要一种能够扩展以满足全球公
 司网站需求的解决方案，该解决方案应具有成本效益，限制了？供应Into并提供最快的响应时间。
 解决方案架构师应推荐哪种组合来满足这些要求？
@@ -4122,7 +4127,7 @@ A.在私有子网和部署公共站点的网络之间创建站点到站点VPN连
 B.在公共子网中创建NAT网关通过NAI网关路由来自私有子网的出站流量
 C.为私有子网创建一个网络ACL，其中部署的EC2实例仅充许从公共网站的IP地址范围进行访
 问
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 D.创建一个仅允许来自公共网站IP地址范围的连接的安全组
 将安全组附加到EC2实例
 答案：B
@@ -4145,7 +4150,7 @@ D.在指向内部BINDDNS服务器的AmazonRoute53上创建条件转发规则
 在这种情况下，辅助ALB的别名已经存在.因此，解决方案架构师仅需要通过AmazonRoute53
 运行状况检查启用故障转移配置
 配置如下所示：
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 Name
 Type
 Value
@@ -4170,7 +4175,7 @@ ALB
 健康检查的重点是识别目标（EC2实例）的健康，它不能将客户端重定向到另一个区域，错误：“在
 AmazonRoute53上创建指向ALB端点的CNAME记录不正确，因为别名记录已经存在，并且
 更适合映射到ALB不正确：“在AmazonRoute53上创建基于延迟的路由策略”是不正确的，因
-为这将仅考虑延迟，而未用于故障转移
+为这将仅考虑延迟，而未用于故障转移正大师微信：ANYPASS
 参考文献：
 https://aws.amazon.com/premiumsupport/knowledge-center/route-53-dns-health-checks/通过我
 们针对考试的备忘单节省时间：
@@ -4184,7 +4189,7 @@ B.更新存储桶以启用跨域资源共享（CPORS）
 C.创建一个存储桶策略，要求用户在上传对象时授予存储桶所有者已满
 D.创建一个IAM策略，要求用户在上载对象时授予存储桶拥有者完全控制权，
 答案：C
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 Q187.一家公司使用AmazonS3作为其对象存储解决方案.该公司有数个S3用于存储数据
 一些S3存储桶具有比其他数据访问频率较低的数据，解决方案架构师发现，生命周期策略不是始
 终如一地实施或部分实施导致数据存储在高成本的存储中，哪种解决方案可以在不影响对象可
@@ -4219,7 +4224,7 @@ B.具有预配置IOPS和EBS优化的多个AmazonEBS驱动器
 C.使用网络托管系统版本4.1（NFSv4.1）协议的多个AmazonEFS卷
 D.具有软件RAIDO的多个实例存储卷
 答案：B
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 Q190.解决方案架构师必须将WindowsInternet信息服务（IIS）Web应用程序迁移到AWS.该
 应用程序当前依赖于用户的本地网络连接存储（NAS）中托管的文件共享，所设计的解决方案已建
 议迁移IlSWeb服务器哪些替代本地Filo共享是最有弹性和持久性的？
@@ -4237,6 +4242,9 @@ VPC
 AvallabilityZone
 Publicsubnet
 Corporatedatacenter
+正大师微信：ANYPASS
+淘宝
+国际
 ESX
 VPNorDirect
 On-premises
@@ -4261,7 +4269,7 @@ AZ
 Windows实例与AmazonEFS一起使用
 错误：“将文件共享迁移到AmazonRDS不正确，因为这不是用于多可用区部署的共享存储解决
 方案
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 不正确：“将文件共享迁移到AwsStorageGateway不正确，因为StorageGateway复制的文件
 最终存储在AmazonS3上.替代存储解决方案应该是文件共享，而不是基于对象的存储系统
 参考文献：
@@ -4271,17 +4279,18 @@ https://digitalcloud.training/certification-training/aws-solutions-architect-ass
 amazon-s3/
 Q191.在VPC-A中的AmazonEC2实例上运行的应用程序需要访问VPC-B中另一个EC2实例
 中的文件两者是分开的.AWS账户，网络管理员需要设计一种解决方案，以允许从VPC-安全访
-问VOC-B中的EC2实例，连接不应有单点故障或带宽问题
+问VOC-B中的EC2实例
+A.连接不应有单点故障或带宽问题
 哪种解决方案可以满足这些要求？
-A.在VPC-A和VPC-B之间建立VPC对等连接
-B.为在VPC-B中运行的EC2实例设置VPC网关端点
-C.将虚拟专用网关连接到VPC-B并启用从VPC-A进行路由
-D.为在VPC-B中运行的EC2实例创建专用虚拟接口（VIF），并从VPC-B添加适当的路由
+B.在VPC-A和VPC-B之间建立VPC对等连接
+C.为在VPC-B中运行的EC2实例设置VPC网关端点
+D.将虚拟专用网关连接到VPC-B并启用从VPC-A进行路由
+E.为在VPC-B中运行的EC2实例创建专用虚拟接口（VIF），并从VPC-B添加适当的路由
 答案：A
 Q192.
 一家公司看到了一些可疑IP地址的访问请求.安全团队发现请求来自相同CIDR范围内的
 不同IP地址解决方案架构师应向团队推荐什么？
-
+淘宝：国际认证大师微信：ANYPASS
 A.在安全性的入站表中添加一条规则，以拒绝来自该CIDR范围的流量
 B.在安全组的出站表中添加一条规则，以拒绝来自该CIDR范围的流量，
 C.在网络ACL的入站表中添加一个拒绝规则，该规则的编号要比其他规则少
@@ -4290,7 +4299,7 @@ D.在网络ACL的出站表中添加一个拒绝规则，该规则的规则号比
 您只能使用网络ACL创建拒绝规则，而使用安全组则无法创建拒绝规则网络ACL从编号最小的
 规则到编号最高的规则依次处理规则，直到它们到达并允许或拒绝为止.下表描述了安全组和网络
 ACL之间的一些区别：
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 SecurityGroup
 Network ACL
 Operatesattheinstance
@@ -4312,7 +4321,7 @@ inthesubnetsitsassociatedwith
 错误：“在网络ACL的出站表中添加一条规则编号比其他规则小的拒绝规则是错误的，因为这只
 会阻止出站流量，错误：由于无法使用安全组创建拒绝规则，因此在安全组的入站表中添加规则
 以拒绝来自该CIDR范围的流量”是错误的.错误：由于您无法使用安全组创建拒绝规则，因此“在
-安全组的出站表中添加规则以拒绝来自该CIDR范围的流量是错误的.
+安全组的出站表中添加规则以拒绝来自该CIDR范围的流量是错误的.ANYPASS
 参考文献：
 https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html使用我们针对考试的
 备忘单节省时间：
@@ -4328,7 +4337,7 @@ B.配置中心辐射型，并通过VPC对等路由所有流量
 C.在所有VPC和VPN之间配置一个AWSDirectConnect.
 D.使用AWSTransitGateway配置一个传输网关，并连接所有VPC和VPN
 答案：D
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 Q194.整体应用程序最近已迁移到AWS，现在正在单个AmazonEC2实例上运行：由于应用程
 序的限制，不可能使用自动缩放来扩展应用程序.首席技术官（CTO）希望自动化解决方案在基
 础硬件出现故障的不太可能的情况下还原EC2实例.如何使EC2实例尽快自动恢复？
@@ -4350,15 +4359,13 @@ C.在每个fIZ中创建公共子网，并在每个子网中启动NAT网关配置
 应NAT网关的流量
 D.在同一公共子网中创建AmazonEC2NAT实例将NAT网关替换为NAT实例，并将该实例与具
 有适当扩展策略的AutoScaling组相关联
-答案：C
-Q196.一家公司有多个适用于多个部门的Aws账户，其中一个部门希望与所有其他部门共享一
+答案：C淘宝：国际认证大师微信：ANYPASS
 个AmazonS3存储桶.哪种解决方案需要最少的努力？
 A.为存储桶启用跨帐户S3复制
 B.创建一个预签名的URL来存储桶并与其他部门共享
 C.设置S3存储桶策略以允许跨帐户访问其他部门
 D.为每个部门创建1AM用户并配置一个只读IAM策略
 答案：C
-Q197.一家公司收集多个大州城市的温度，湿度和大气压数据，每个站点每天收集的平均数据
 量为500GB.每个站点都有高速互联网连接.该公司的天气预报应用程序位于单个区域中，并每
 天分析数据.
 汇总所有这些全球站点的数据的最快方法是什么？
@@ -4366,7 +4373,7 @@ A.在目标存储桶上启用AmazonS3TransferAcceleration使用分段上传将�
 自标存储桶
 B.将站点数据上传到最近的AWS区域中的AmazonS3存储桶.使用S3跨区域复制将对象复制
 到自标存储桶
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 C.将站点数据上传到最近的AWS区域中的AmazonS3存储桶.使用S3跨区域复制将对象复制
 到目标存储桶
 D.将数据上传到关闭区域中的AmazonEC2实例.将数据存储在AmazonEBS卷中.每天拍摄一
@@ -4377,12 +4384,11 @@ AmazonDynamoDB表.解决方案架构师正在设计一个IAM策略，该策略�
 的IAM角色，从而使其可以访问，更新和删除Books表中的项目.IAM策略必须阻止功能对书籍
 表或任何其他操作执行任何其他操作，哪种IAM策略可以满足这些需求并提供最小的特权访问？
 一个）
-(A)
 "Version":"2012-10-17"
 "Statement":[
 "Sid":"PutUpdateDeleteOnBooks"
 "Effect""Allow"
-"Actign
+"Actign宝国际认证大师微信：ANYPASS
 "Dynamodb:Putltem"
 "Dynamodb:Updateltem"
 "Dynamodb:Deleteltem"
@@ -4390,8 +4396,8 @@ AmazonDynamoDB表.解决方案架构师正在设计一个IAM策略，该策略�
 "Resource""arn:aws:dynamodb:us-west-2:123456789012:table/Books"
 (
 1
-(B)
-
+B)
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 "Version":"2012-10-17"
 "Statement":[
 "Sid":"PutUpdateDeleteOnBooks"
@@ -4405,8 +4411,8 @@ AmazonDynamoDB表.解决方案架构师正在设计一个IAM策略，该策略�
 1
 1
 1
-
-(C)
+淘宝：国际认证大师微信：ANYPASS
+C)
 (
 "Version"："2012-10-17"
 "Statement":[
@@ -4416,8 +4422,8 @@ AmazonDynamoDB表.解决方案架构师正在设计一个IAM策略，该策略�
 "Action"："Dynamodb:*"
 "Resource":"arn:aws:dynamodb:us-west-2:123456789012:table/Books"
 1
-
-(D)
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
+D)
 1
 "Version":"2012-10-17"
 "Statement":[
@@ -4432,7 +4438,7 @@ AmazonDynamoDB表.解决方案架构师正在设计一个IAM策略，该策略�
 "Effect""Deny"
 "Action":"Dynamodb:*"
 "Resource":"arn:aws:dynamodb:us-west-2:123456789012:table/Books"
-
+淘宝：国际认证天师微信：ANYPASS
 "
 1
 A.选项A
@@ -4447,7 +4453,7 @@ Q199.应用程序开发人员已经注意到，当业务报告用户针对支持
 A.增加RDS实例的大小
 B.创建一个只读副本并将应用程序连接到它，
 C.在RDS实例上启用多个可用区
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 D.创建一个只读复制并将业务报告连接到该复制
 答案：D
 Q200.公司的打包应用程序可以动态创建并返回一次性文本文件，以响应用户请求.该公司正在
@@ -4466,6 +4472,7 @@ Q201.面向公众的Web应用程序查询专用子网中AmazonEC2实例上托管
 A.在AmazonSQS中缓存查询数据
 B.创建一个只读副本以减轻查询负担
 C.将数据库迁移到AmazonAthena
+！微信：ANYPASS
 D.实施AmazonDynamoDBAccelerator以缓存数据！
 E.将数据库迁移到AmazonRDS
 答案：BE
@@ -4482,7 +4489,7 @@ Q203一家公司最近在全球扩张，希望使这些地区的用户可以访�
 署在AutoScaling组中应用程序负载均衡器后面的AmazonEC2实例上.公司需要将流量从一个
 地区的资源转移到另一个地区的能力
 解决方案架构师应该建议什么？
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 A.配置AmazonRoute53延迟路由策略
 B.配置AmazonRoute53地理位置路由策略
 C.配置AmazonRoute53地理邻近结垢策略
@@ -4500,7 +4507,7 @@ E.AWwsStorageGateway文件网关
 答案：CE
 关键字：SMB+本地
 条件：可从本地和AWS访问文件
-适用于Windows文件服务器的AmazonFsx
+适用于Windows文件服务器的AmazonFsx大师微信：ANYPASS
 适用于Windows的AmazonFSxFileServer提供了完全托管的，高度可靠的和可扩展的文件存
 储，可以通过行业标准的服务器消息块（SMB）协议进行访问它基于WindowsServer构建，提
 供了广泛的管理功能，例如用户配额，最终用户文件还原以及MicrosoftActiveDirectory（AD）
@@ -4509,7 +4516,7 @@ E.AWwsStorageGateway文件网关
 存储并更改文件系统的吞吐量性能可从Windows，Linux和MacOS计算实例以及在AWS或本
 地运行的设备访问AmazonFSx文件存储
 FSxforWindowsFileServer的工作方式
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 000
 儿
 Createa FSx for
@@ -4543,7 +4550,7 @@ permissions
 compute instances
 andend-users
 your Active Diretory
-
+淘宝：国际认证大师微信：ANYPASS
 AWS存储网关
 AWSStorageGateway是一种混合云存储服务，可让您在内部访问儿乎无限的云存储
 客户使用
@@ -4560,7 +4567,7 @@ AmazonS3,AmazonS3Glacier,AmazonS3GlacierDeepArchive,AmazonEBS和AwS
 Backup，为AWS中的文件，卷，快照和虚拟磁带提供存储，该服务包括高度优化和高效的数据
 传输机制，具有带宽管理和自动网络弹性
 StorageGateway的工作方式
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 Or-hrenises
 NFS/SM
 ifeyde
@@ -4597,12 +4604,15 @@ AnazonS
 SClacer&
 Bacug Application
 TaceGateway
+ANYPASS
 S3 Gladier DepArchie
+国际认证大师
+微信：
 GitewayDeplaymertoptions
 VMaane Hpr-VKVM
 cr hardawareappliarce
 下表显示了可用的不同网关以及接口和用例：
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 NewName
 OldName
 Interface
@@ -4649,7 +4659,7 @@ https://digitalcloud.training/certification-training/aws-solutions-architect-ass
 amazon-fsx/
 https://digitalcloud.training/certification-training/aws-solutions-architect-associate/storage/aws-
 storage-gateway
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 Q205.公司的运营团队已将现有的AmazonS3存储桶配置为在存储桶中创建新对象时通知
 AmazonSQS队列.开发团队还希望在创建新对象时接收事件.现有的运营团队工作流程必须保
 持不变.
@@ -4670,7 +4680,7 @@ A.将AmazonFSx用于Windows文件服务器
 B.使用AmazonElasticFileSystem（AmazonEFS）
 C.在文件网关模式下使用AwSStorageGateway
 D.在两个可用区中的两个点播实例上部署Windows文件服务器.
-
+淘宝：国际认证大师微信：ANYPASS
 答案：A
 Q207
 一家公司正在设计一项新服务，该服务将在ElasticLoadBalancer后面的AmazonEC2
@@ -4681,14 +4691,13 @@ B.具有关联的弹性IP地址的ApplicationLoadBalancer
 C.AmazonRoute53托管区域中的A记录指向弹性IP地址
 D.一个EC2实例，其公共IP地址在负载均衡器之前作为代理运行
 答案：A
-Q208.一家公司正在设计一项新服务，该服务将在Elastic Load Balancer后面的Amazon EC2
 实例上运行
 但是，许多Web服务客户端只能访问其防火墙上列入白名单的IP地址，
 解决方案架构师应建议什么来满足客户的需求？
 A.具有关联的弹性IP地址的网络负载平衡器
 B.具有关联的弹性IP地址的ApplicationLoadBalancer
 C.AmazonRoute53托管区域中的A记录指向弹性IP地址
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 D.一个EC2实例，其公共IP地址在负载均衡器之前作为代理运行
 答案：A
 Q209.一家公司正在研究潜在的解决方案，这些解决方案将收集，处理和存储用户的服务使用数
@@ -4708,10 +4717,9 @@ Q210一家公司在ApplicationLoadBalancer后面的AmazonCc2实例上运行Web�
 如果可用区不足，公司如何保持与SLA的合规性？
 A.添加目标跟踪缩放策略且冷却时间很短
 B.更改AutoScaling组启动配置以使用更大的实例类型
-C.更改AutoScaling组以在主不可用区中使用六台服务器
+C.更改AutoScaling组以在主不可用区中使用六台服务器微信：ANYPASS
 D.更改AutoScaling组以在两个可用区中使用八台服务器
 答案：A
-Q211.一家电子商务公司注意到其基于Amazon RDS 的web应用程序的性能下降
 性能下降归因于业务分析师触发的只读SQL查询数量的增加.
 解决方案架构师需要以对现有Web应用程序的最小更改来解决问题
 解决方案架构师应该建议什么？
@@ -4726,14 +4734,13 @@ Q212
 管理层指出，生产系统必须与云无关，并且在整个生产系统中使用相同的配置和管理员工具，解决
 方案架构师需要设计一个可与开源软件保持一致的托管解决方案，
 哪种解决方案满足这些要求？
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 A.在具有EC2实例工作程序节点的AmazonEC2上启动容器.
 B.在AmazonElasticKubernetesService（AmazonEKS）和EKSworker节点上启动容器
 C.使用AWSFargate实例在AmazonElasticContainers服务（AmazonECS）上启动容器
 D.使用AmazonEC2实例工作程序节点在AmazonElasticContainerService（AmazonEC）上
 启动容器
 答案：B
-Q213. 一家公司正在使用服务运行一个两层电子商务网站，当前的架构师使用面向发布的Elastic
 LoadBalancer，该流量将流量发送到私有子网中的AmazonEc2实例
 静态内容托管在EC2实例上，动态内容从MYSQL数据库检索
 该应用程序正在美国运行，该公司最近开始向欧洲和澳大利亚的用户销售产品，
@@ -4744,7 +4751,6 @@ B.使用AmazonCloudFront和AmazonS3托管静态图像
 C.增加公共负载均衡器和EC2实例的数量
 D.在欧洲和澳大利亚的AWS区域中部署两层网站
 答案：B
-Q214.数据库位于经历高度动态读取的Amazon RDS Mysql 5.6 Multi-AZ数据库实例上，
 在测试缅助AWS区域的读取性能时，应用程序开发人员会注意到速度明显下降PASS
 开发人员需要一种提供少于1秒的读取复制延迟的解决方案
 解决方案架构师应该建议什么？
@@ -4753,7 +4759,7 @@ B.使用跨区域副本将数据库迁移到AmazonAurora
 C.在辅助数据库中为MySQL只读副本创建另一个RDS
 D.实施AmazonElastiCache以提高数据库查询性能
 答案：B
-Q215.运营团队的标准规定，IAM策略不应直接应用于用户
+Q215运营团队的标准规定，IAM策略不应直接应用于用户
 些新成员尚未遵循此标准.运营经理需要一种方法来轻松识别带有附加策略的用户，解决方案
 架构师应该怎么做才能做到这一点？
 A.使用AWSCloudTrail进行监控
@@ -4761,7 +4767,7 @@ B.创建一个AWSConfig规则以每天运行
 C.在AmazonSNS上发布1AM用户更改
 D.修改用户后运行AWSLambda
 答案：B
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 Q216
 一家公司已经建立了一个新的AWS账户
 该帐户是新设置的，并且未更改默认设置.该公司担心AWS账户根用户的安全性
@@ -4783,7 +4789,6 @@ Q217一家医疗保健公司存储高度敏感的患者记录.合规性要求将
 解决方案架构师应该建议什么？
 A.在启用跨区域复制的情况下使用AmazonS3
 30天后，使用生命周期策略将数据过渡到AmazonS3Glacier
-B.在启用跨区域共享的情况下使用AmazonS3
 30天后，使用生命周期策略将数据过渡到AmazonS3Glacier.
 C.在启用跨区域复制的情况下使用AmazonS3
 30天后，使用生命周期策略将数据过渡到AmazonS3GlacierDeepAchieve
@@ -4800,7 +4805,7 @@ B.创建一个由SpotFleet支持的网络负载均衡器，该实例具有一个
 C.创建一个由不同服务区中的现有服务支持的网络负载平衡器作为目标
 D.创建一个由AutoScaling支持的网络负载均衡器，并以多个可用区中的实例为目标
 答案：D
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 Q219.解决方案架构师正在使用AWS云设计混合应用程序.内部数据中心与AWS之间的网络将
 使用AWSDirectConnect（DX）连接
 AWS与本地数据中心之间的应用程序连接必须具有高度的弹性
@@ -4815,11 +4820,10 @@ Q220一家公司计划在AmazonS3上存储敏感用户数据.内部安全合规�
 解决方案架构师应建议哪些以满足这些要求？
 A.使用客户提供的加密密钥进行服务器端加密
 B.使用AmazonS3托管加密密钥进行客户端加密
-C.使用存储在AWSKeyManagementService（AWSKMS）中的密钥进行服务器端加密
 D.使用存储在AWSKeyManagementService（AWSKMS）中的主密钥进行客户端加密
 答案：D
 Q221.一家公司正在使用AmazonEC2来运行其大数据分析工作负载.这些可变的工作负载每天
-晚上运行同至关重要的是它们要在第二天开始营业时完成
+晚上运行同至关重要的是它们要在第二天开始营业时完成微信：ANYPASS
 解决方案架构师的任务是设计成本最低的MOST解决方案
 哪种解决方案可以做到这一点？
 A.现货舰队
@@ -4837,7 +4841,7 @@ C.为公司的每个S3网关端点创建一个S3端点策略，该策略将阻�
 的任何VPC进行访问
 D.为公司的每个S3网关端点创建一个S3端点策略，该策略提供对受信任S3存储桶的Amazon
 资源名称（ARN）的访问
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 答案：D
 Q223
 一家公司正在使用AWS设计可处理保险报价的Web应用程序，用户将向该应用程序请求
@@ -4857,7 +4861,6 @@ C.创建一个单一的AmazonSimpleNotificationService（AmazonSNS）主题，�
 队列订阅到SNS主题
 配置SNS消息过滤以根据报价类型将消息发布到正确的SQS队列
 配置每个后端应用程序服务器以工作自己的SQS队列
-D.根据报价类型创建爱你多个Amazon Kinesis Data Firehouse交付流，以将数据交付到Amazon
 ElasticsearchService（AmazonES）集群
 配置Web应用程序以将消息发送到正确的传递流，
 配置应用程序服务器的每个后端组以搜索来自AmazonES的消息并进行相应处理ASS
@@ -4878,7 +4881,7 @@ Q225.一家公司正在为移动应用程序创建一种架构，该架构需要
 司的架构由在AutoScaling组中运行的ApplicationLoadBalancer后面的AmazonEc2实例组成，
 EC2实例连接到AmazonRDS.应用程序Beta测试表明，读取数据时速度变慢：但是这些指标表
 明EC2实例未超过任何CPU使用率阅值
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 如何解决这个问题1？
 A.降低AutoScaling组中CPU利用率的阅值
 B.用网络负载平衡器替换应用程序负载平衡器
@@ -4898,7 +4901,7 @@ C.使用AmazonKinesisDataStreams摄取数据
 D.使用AmazonKinesisDataStreams摄取数据
 使用AWsLambda函数使用数据，该函数随后将数据存储在AmazonDynamoDB中
 答案：D
-
+淘宝：国际认证大师微信：ANYPASS
 Q227
 一家公司正在将NoSQL数据库集群迁移到AmazonEC2.数据库自动复制数据以维护至
 少三个数据副本，服务器的1/O吞吐量是最高优先级.
@@ -4918,7 +4921,7 @@ A.配置AmazonCloudWatchSwapUsage指标维度
 B.使用EC2元数据收集信息，然后将其发布到AmazonCloudWatch自定义指标
 在CloudWatch中监控SwapUsage指标
 C.在实例上安装AmazonCloudWatch代理
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 按照设定的时间表运行适当的脚本
 在CloudWatch中监控SwapUtilizalion指标
 D.在EC2控制台中启用详细监视
@@ -4954,10 +4957,9 @@ Q231.公司需要为其本地数据库服务器提供持久的备份存储解决
 持对这些备份的访问以快速恢复.该公司将使用AWS存储服务作为这些备份的目标，解决方案架
 构师正在设计具有最小运营开销的解决方案.解决方案架构师应实施哪种解决方案？
 A.在本地部署AwsStorageGateway文件网关并将其与AmazonS3存储桶关联
-B.将数据备份到AWS Storage Gateway卷关，并使用Amazon S3 API访问它
 C.将数据库备份文件传输到附加到AmazonEc2实例的AmazonElasticBlockStore（Amazon
 EBS）卷
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 D.将数据库直接备份到AWSSnowball设备，并使用生命周期规则将数据移至AmazonS3Glacier
 DeepArchive.
 答案：A
@@ -4976,7 +4978,7 @@ AutoScaling
 管理层担心该公司过度配置了基础架构，尤其是在三层应用程序的前端。
 解决方案架构师需要确保在不影响性能的情况下优化成本，解决方案架构师应该怎么做才能做到
 这一点？
-A对保留实例使用AutoScaling
+A对保留实例使用AutoScaling认证大师微信：ANYPASS
 B.将AutoScaling与计划的缩放策略一起使用
 C.将AutoScaling与暂停恢复功能一起使用
 D.将AutoScaling与目标跟踪缩放策略一起使用
@@ -4994,7 +4996,7 @@ Q235.解决方案架构师正在优化本地数据中心中运行在MicrosoftWin
 管理应用程序，该应用程序将大量文件存储在网络文件共享上，首席信息官希望通过将本地存储
 移至AWS来减少本地数据中心的占地面积并最大程度降低存储成本
 解决方案架构师应怎么做才能满足这些要求？
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 A.设置一个AwSStorageGateway文件网关
 B.设置AmazonElasticFileSystem（AmazonEFS）
 C.将AwSStorageGateway设置为卷网关
@@ -5012,7 +5014,7 @@ Zone-IA).
 答案：A
 Q237.最近对公司IT支出的分析表明，需要降低备份成本，该公司的首席信息官希望通过消除使
 流程中的现有投资.
-解决方案架构师应该建议什么
+解决方案架构师应该建议什么认证大师微信：ANYPASS
 A.设置AWSStorageGateway以使用NFS界面与备份应用程序连接
 B.设置使用NFS接口与备份应用程序连接的AmazonEFS文件系统
 C.设置一个使用iSCSI接口与备份应用程序连接的AmazonEFS文件系统
@@ -5030,7 +5032,7 @@ C.修改脚本以将数据复制到AmazonElasticFileSystem（AmazonEFS）卷，�
 D.修改脚本以将数据复制到适用于FileGateway虚拟设备的AwSStorageGateway，而不是本
 地NFS共享
 答案：D
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 Q239.解决方案架构师正在设计用于新的Web应用程序的存储体系结构，该应用程序用于简化和
 查看工程图
 所有应用程序组件都将部署在AWS基础架构上.应用程序设计必须支持缓存，以最大程度地减少
@@ -5068,7 +5070,7 @@ D.为本地环境部署一个AwSStorageGateway文件网关
 Q242
 一家公司的本地数据中心的存储容量已用完该公司希望将其存储基础架构迁移到AWS
 同时将带宽成本降至最低
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 该解决方案必须充许立即获取数据而无需任何额外费用
 如何满足这些要求？
 A.部署AmazonS3GlacierVault并启用快速检索，
@@ -5087,7 +5089,6 @@ Q243.一家公司正在审查其AWSCloud部署，以确保未经适当授权的�
 A.使用适当的规则启用AWSConfig服务
 B.通过适当的检查启用AWSTrustedAdvisor
 C.使用AWS开发工具包编写脚本以生成存储桶报告
-D.启用Amazon S3服务器访问日志记录并配置Amazon CloudWatch Events.
 答案：A
 Q244.一家公司构建了一个应用程序，该应用程序使用户可以签入他们访问过的地方，对这些地
 方进行排名并添加有关其体验的评论.
@@ -5103,7 +5104,7 @@ C.创建一个AmazonElastiCache集群，并将所有只读流量重定向到该�
 D.创建一个AmazonDynamoDB表来替换RDS实例，并将所有只读流量重定向到DynamoDB表
 启用DynamoDBAccelerator以减轻主表的流量
 答案：A
-Q245. 公司在Amazon EC2实例上运行应用程序，该应用程序部署在us-east-1地区三个可用区
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 中的专用子网中.实例必须能够连接到互联网以下载文件，该公司希望该设计在整个地区都高度
 可用.应该采用哪种解决方案来确保不中断Internet连接？
 A.在每个可用区的专用子网中部署NAT实例
@@ -5111,7 +5112,6 @@ B.在每个可用区的公共子网中部署NAT网关
 C.在每个可用区的专用子网中部署一个传输网关
 D.在每个可用区的公共子网中部署Intemet网关
 答案：B
-Q246.一家公司已将本地Oracle数据库迁移到Us-east-1 Region中的Amazon RDS (或Oracle
 Multi-AZ数据库实例）
 解决方案架构师正在设计一种灾难恢复策略，以在us-west-2区域中配置数据库，以防在us-east-1
 区域中数据库不可用.设计必须确保在us-west-2区域中最多配置2小时，并且数据丢失窗口不超
@@ -5141,7 +5141,7 @@ C.使用AmazonSimpleNotificationService（AmazonSNs）提取数据
 D.将应用程序重新包装为容器
 通过EC2启动类型和AutoScaling组，使用AmazonElasticContainerService（AmazonEcS）
 部署应用程序。
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 答案：A
 Q248公司必须在30天内将20TB的数据从数据中心迁移到AWS云.该公司的网络带宽限制为
 15MbpS，利用率不能超过70%.解决方案架构师应该怎么做才能满足这些要求？
@@ -5163,6 +5163,7 @@ A.在每个可用区的公共子网内部署NAT网关
 B.在每个可用区的专用子网内部署一个NAT网关，并将其与弹性IP地址关联
 更新专用子网的路由表以将真用作默认路由
 C.在每个可用区的公共子网内部署两个NAT实例，并将它们与弹性IP地址关联
+师微信：ANYPASS
 更新专用子网的路由表以将其用作默认路由.人
 D.在每个可用区的专用子网内部署两个NAT实例，并将它们与弹性IP地址关联，
 更新专用子网的路由表以将其用作默认路由
@@ -5179,7 +5180,7 @@ C.创建一个AmazonElasticFileSystem（AmazonEFS）卷并将其映射到数据�
 D.分配两卷，并为每卷分配32.0001OPS.在操作系统级别创建一个逻辑卷，该逻辑卷将两个卷聚
 合在一起以达到IOPS要求
 答案：B
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 Q251一家公司最近启动了其网站，向其全球用户群提供内容，该公司希望通过利用附加了
 AmazonEC2实例的AmazonCloudFront来存储和加速向其用户的静态内容交付.解决方案架构
 师应如何优化应用程序的高可用性？
@@ -5198,7 +5199,7 @@ B.将AutoScaling组中的AmazonEc2实例与跨多个可用区的ApplicationLoadB
 C.将群集放置组中的AmazonEC2实例与跨多个可用区的ApplicationLoadBalancer一起使用
 D.在群集放置组中使用AmazonEC2实例，并将群集放置组包括在新的AutoScaling组中
 答案：B
-Q253.公司希望将工作负载迁移到AWS
+Q253公司希望将工作负载迁移到AWS正大师微信：ANYPASS
 首席信息安全官要求将存储在云中的所有数据静态加密，
 该公司希望对加密密钥生命周期管理进行完全控制」公司必须能够独立于AWSCloudTrail立即册删
 除密钥材料并审核密钥使用情况
@@ -5206,7 +5207,6 @@ Q253.公司希望将工作负载迁移到AWS
 A.AWSCloudHSM与CloudHSM客户端
 B.带有AWSCloudHSM的AWSKeyManagementService（AWSKMS）
 C.具有外部密钥材料来源的AWS密钥管理服务（AWSKMS）
-D.具有AWS管理的客户主密钥（CMK）的AWS key Management Service(AWS KMS)
 答案：B
 Q254.一家公司正在寻找一种可以将旧新闻素材中的视频档案存储在AWS中的解决方案.该公
 司需要将成本降到最低并且很少需要还原这些文件，当需要这些文件时，它们必须在最多五分钟
@@ -5214,9 +5214,7 @@ Q254.一家公司正在寻找一种可以将旧新闻素材中的视频档案存
 什么是最具成本效益的解决方案？
 A.将视频档案存储在AmazonS3Glacier中，并使用快速检索
 B.将视频档案存储在AmazonS3Glacier中并使用标准检索
-C.将视频档案存储在S3 Standard-IA中并使用标准检索
-D.将视频档案存储在S3 One Zone-IA中并使用标准检索
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 答案：A
 Q255.一家公司希望将AmazonS3用作其本地数据集的二级副本
 该公司很少需要访问此副本
@@ -5227,7 +5225,7 @@ B.S3智能分层
 C.S3标准-不频繁访问（S3Standard-IA）
 D.S3一区不频繁访问（S3一区-IA）
 答案：D
-Q256.一家公司已启用AWSCloudTrail日志，以为其每个开发人员账户将日志文件传送到
+Q256」一家公司已启用AWSCloudTrail日志，以为其每个开发人员账户将日志文件传送到
 AmazonS3存储桶.
 该公司已经创建了一个中央AWS账户来简化管理和审核审查
 内部审核员需要访问CloudTrail日志，但是需要限制所有开发人员帐户用户的访问
@@ -5235,7 +5233,6 @@ AmazonS3存储桶.
 A.在每个开发人员帐户中配置一个AWSLambda函数，以将日志文件复制到中央帐户
 在中央帐户中为审计员创建一个1AM角色
 将提供只读权限的1AM策略附加到存储桶
-B.从每个开发人员账户配置CloudTrail, 以将日志文件传递到中眼账户中的S3存储桶，
 在中央帐户中为审核员创建一个1AM用户
 附加一个1AM策略，为存储桶提供完全权限
 C.从每个开发人员帐户配置CloudTrail以将日志文件传递到中央帐户中的S3存储桶
@@ -5254,7 +5251,7 @@ I/O密集型操作处理消息：该公司具有服务级别协议（SLA），�
 载？
 A.从用于处理的实例创建AmazonMachineImage（AMi）
 终止实例并将其替换为更大的尺寸
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 B.从用于处理的实例创建AmazonMachineImage（AMI）
 终止实例并将其替换为AmazonEC2专用实例
 C.从用于处理的实例创建AmazonMachineimage（AMI）
@@ -5264,7 +5261,6 @@ D.从用于处理的实例创建AmazonMachineImage（AMI）：
 在启动配置中使用该映像创建一个AutoScaling组
 根据SQS队列中最旧邮件的年龄，使用目标跟踪策略配置组
 答案：D
-Q258.一家公司计划部署运行Amazon Aurora的Amazon RDS数据库实例，该公司的备份保留
 政策要求为90天.解决方案架构师应建议哪种解决方案？
 A.在创建RDS数据库实例时，将备份保留期设置为90天
 B.配置RDS以将自动快照复制到用户管理的AmazonS3存储桶，并将生命周期策略设置为90
@@ -5281,7 +5277,6 @@ Q259.一家公司正在使用磁带备份解决方案将其关键应用程序数
 该公司现在正在考虑基于云的选项，以降低存储成本和管理磁带的运营负担
 该公司还希望确保过渡（将磁带备份到云端）将中断降到最低
 哪种存储解决方案最符合成本效益”？
-A.使用Amazon Storage Gateway备份到Amazon Glacier Deep Archive
 B.使用AWSSnowballEdge直接将备份与AmazonS3Glacier集成
 C.将备份数据复制到AmazonS3并创建生命周期策略以将数据移动到AmazonS3Glacier
 D.使用AmazonStorageGateway备份到AmazonS3并创建生命周期策略以将备份移至Amazon
@@ -5292,7 +5287,7 @@ Q260.一家公司所依赖的应用程序在正常流量期间至少需要4个Am
 方案可以满足这些要求？
 A.将EC2实例部署在AutoScaling组中
 将最小值设置为4，将最大值设置为M，在可用区A中设置2，在可用区B中设置2
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 B.将EC2实例部署在AutoScaling组中
 将最小值设置为4，将最大值设置为12，所有4个设置在可用区A中
 C.在AutoScaling组中部署EC2实例
@@ -5329,7 +5324,7 @@ A.使用应用程序负载平衡器进行区域故障转移
 B.使用AmazonRoute53进行区域故障转移
 使用userdata脚本部署新的Ec2实例
 在备份区域中创建RDS实例的只读副本
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 C.使用AmazonAPIGateway进行公共API和区域故障转移
 使用userdata脚本部署新的EC2实例
 在备份区域中创建RDS实例的MySQL只读副本
@@ -5361,10 +5356,9 @@ Q266.公司的媒体和应用程序文件需要在内部共享，当前使用Act
 A.设置公司的AmazonS3存储桶，并移动媒体和应用程序文件
 B.为Windows文件服务器配置AmazonFSx，并移动所有媒体和应用程序文件.
 C.配置AmazonElasticFileSystem（AmazonEFS）并移动所有媒体和应用程序文件
-D.在windows上设置Amazon EC2,附加多个Amazon Elastic Block Store(Amazon EBS)卷
 然后移动所有媒体和应用程序文件
 答案：B
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 Q267
 一家公司正在将其遗留工作负载转移到AWS云.首次创建工作负载文件时，它们将通过
 AmazonEC2实例共享，附加和频繁访问
@@ -5385,7 +5379,7 @@ B.在同一AWS区域中的单个可用区中使用AutoScaling组
 C.将AutoScaling组与同一AWS区域中的多个可用区配合使用
 D.使用具有多个AmazonEC2专用主机的网络负载均衡器作为目标
 答案：A
-
+淘宝：国际认证大师微信：ANYPASS
 Q269公司每天从各种来源接收结构化和半结构化数据。解决方案架构师需要设计一种利用大数
 据处理框架的解决方案，可以使用SQL查询和商业智能工具访问数据.解决方案架构师应建议什
 么来构建MOST高性能解决方案？
@@ -5402,7 +5396,7 @@ A.在AmazonS3前面部署NAT服务器
 B.在AmazonS3之前部署AmazonCloudFront.
 C.在AmazonS3前面部署网络负载平衡器
 D.配置自动缩放以自动调整网站的容量
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 答案：B
 Q271解决方案架构师应该怎么做才能确保上传到AmazonS3存储桶的所有对象都经过加密？
 A.更新存储桶策略以拒绝PutObject没有设置s3x-amz-acl标头的情况
@@ -5420,7 +5414,7 @@ C.启动AmazonEC2实例时选择ElasticInference加速器
 D.在启动AmazonEC2实例时选择所需的容量预留
 答案：A
 Q273公司的动态网站使用美国的本地服务器托管，该公司正在欧洲推出其产品，并希望为新的
-欧洲用户优化站点加载时间.标认证
+欧洲用户优化站点加载时间.标认证大师信：ANYPASS
 该网站的后端必须保留在美国，该产品将在几天内发布，需要立即解决方案
 解决方案架构师应该建议什么？
 A.在us-east-1中启动AmazonEc2实例并将网站迁移到该实例
@@ -5438,7 +5432,7 @@ A.将处理内置到用于将内容上传到AmazonS3的网站或移动应用程�
 B.当对象存储在S3存储桶中时，触发AWSStepFunctions
 让步骤功能”执行处理对象所需的步骤，然后将元数据写入DynamoDB表
 C.当对象存储在S3存储桶中时，触发AWSLambda函数.
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 让Lambda函数启动AWSBatch以执行处理对象的步骤
 完成后将对象数据放置在DynamoDB表中
 D.当对象上载到AmazonS3时，触发AWSLambda函数以将初始条目存储在DynamoDB表中
@@ -5455,10 +5449,9 @@ B.将AWSKeyManagementService（AWSKMS）与客户主密钥（CMK）一起使用�
 钥材料，并应用路由以定期重新创建新密钥并将其替换在AWSKMS中
 C.使用带有客户主密钥（CMK）的AWSCloudHSM集群来存储主密钥材料，并应用例程并定期
 重新创建新密钥，并将其替换到CloudHSM集群节点中
-D.将AWS Systems Manager 参数存储与客户主密钥（CMK）一起使用来存储主密钥
 并应用例程以定期重新创建新的并将其替换在参数存储中
 答案：B
-Q276.解决方案架构师必须设计一个使用AmazonCloudFront和AmazonS3来存储静态网站的
+Q276」解决方案架构师必须设计一个使用AmazonCloudFront和AmazonS3来存储静态网站的
 解决方案
 公司安全政策要求AWSWAF检查所有网站流量解决方案架构师应如何满足这些要求？
 A.配置S3存储桶策略以仅接受来自AWSWAFAmazonResourceName（ARN）的请求
@@ -5476,7 +5469,7 @@ A.订购SnowballEdge设备将数据从一个地区复制到另一地区.
 B.使用S3控制台将内容从源S3存储桶传输到目标S3存储桶
 C.使用awsS3sync命令将数据从源存储桶复制到目标存储桶.
 D.添加跨区域复制配置，以跨不同Reg中的S3存储桶复制对象
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 答案：A
 Q278.一家公司聘请了一位新的云工程师，该工程师不应该访问名为CompanyConfidential的
 AmazonS3存储桶
@@ -5493,7 +5486,7 @@ EEfect："Allown
 "Resource"al
 "atntaws:s3:t:Companycontidential/*"
 "arn:aws.3:t:Companyconfidential"
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 B.
 "Veraionan2012-16-17
 "statementL
@@ -5506,8 +5499,8 @@ tarn:awgis3:Companycontidential/m
 "Effect"nDeny"
 Action"s3;*"
 "arn:awa:s3:s:CoupanyCptirldentlal
-
-
+淘宝：国际认证大师微信：ANYPASS
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 C.
 "yersion"2012-10-17m
 "statenent":!
@@ -5519,7 +5512,9 @@ Actionn:a3:Geto5jactB3:putobiact1
 "Resource"RlL
 "arn:aws:s3:u:Companycontidential/
 "arn:aws:s3:t:Companyconidentlal"
+淘宝·国际认证大师微信：ANYPASS
 D.
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 "Version：2012-10-17"
 "gtatement"：!
 "Eftect""Allow
@@ -5531,7 +5526,7 @@ D.
 "Resource:l
 "arn:aws:s3:w:conpanychnfidential*
 "arniaws:s3::Companycontfidential/tm
-
+淘宝：国际认证大师微信：ANYPASS
 答案：A
 Q279
 一个工程团队正在开发和部署AWSLambda功能.团队需要在AWSIAM中创建角色并管
@@ -5546,7 +5541,7 @@ C.为Lambda函数创建执行角色
 附加具有特定于这些Lambda函数的权限边界的托管策略
 D.创建一个IAM角色，并附加一个托管策略，该策略具有特定于Lambda函数的权限边界
 让工程团队承担这个角色
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 答案：D
 Q280.公司需要在其本地环境和AWS之间建立安全连接.此连接不需要高带宽，将处理少量流量
 连接应快速建立，
@@ -5565,7 +5560,7 @@ Q281公司正在构建付款应用程序，即使在区域服务中断期间，�
 A.AmazonAurora全球数据库
 B.AmazonDynamoDB全局表
 C.具有跨区域复制和AmazonAthena的AmazonS3
-D.具有Amazon EBS快照复制的Amazon EC2实例上的mysql
+淘宝：国际认证大师微信：ANYPASS
 答案：C
 Q282.解决方案架构师正在使用AmazonS3来设计新的数字媒体应用程序的存储架构
 媒体文件必须能够抵抗可用区的丢失，某些文件经常访问，而其他文件很少以不可预测的方式访
@@ -5576,13 +5571,13 @@ B.S3智能分层
 C.S3标准-不频繁访问（S3Standard-IA）
 D.S3一区不频繁访问（S3一区-IA）
 答案：B
-Q283.公司使用旧式本地分析应用程序，该应用程序以千兆字节的csv文件运行，代表数月的数据
+据
 旧版应用程序无法处理不断增长的CSV文件大小，每天都会从各种数据源向中央本地存储位置添
 加新的CSV文件.该公司希望在用户学习AWS分析服务的同时继续支持旧版应用程序
 为了实现这一目标，解决方案架构师希望在本地和AmazonS3中维护所有csv文件的两个同步副
 本.
 解决方案架构师应建议哪种解决方案？
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 A.在本地部署AWSDataSync.
 配置DataSync以在公司的本地存储和公司的S3存储桶之间连续复制csv文件
 B.部署本地文件网关
@@ -5597,14 +5592,14 @@ D.在本地部署AWSDataSync.
 配置DataSync以在本地和AmazonElasticFileSystem（AmazonEFS）之间连续复制csv文件
 启用从AmazonEFS到公司S3存储桶的复制
 答案：A
-Q284.
+Q284J
 1一个应用程序允许公司总部的用户访问产品数据.产品数据存储在AmazonRDSMySQL
 数据库实例中，运营团队已隔离了应用程序性能下降的问题，并希望将读取流量与写入流量分开
 解决方案架构师需要快速优化应用程序的性能
 解决方案架构师应该建议什么？
 A.将现有数据库更改为多可用区部署
 服务来自主要可用区的读取请求，
-B.将现有数据库更改为多可用区部署
+B.将现有数据库更改为多可用区部署，证大师微信：ANYPASS
 服务来自辅助可用区的读取请求
 C.为数据库创建只读副本
 使用一半的计算和存储资源作为源数据库配置只读副本，
@@ -5621,7 +5616,7 @@ D.AmazonS3标准不频繁访问（S3Standard-IA）
 答案：D
 Q286.公司要求保留其AmazonS3存储桶中所有版本的对象.当前对象版本将在前30天内频繁
 访问，此后将很少访问它们，并且必须在5分钟内对其进行检索，以前的对象版本需要永久保存，
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 很少被访问，并且可以在1周之内检索到.所有存储解决方案都必须具有高可用性和高度耐用性
 解决方案架构师应建议什么，以最具成本效益的方式满足这些要求？
 A.为存储桶创建一个S3生命周期策略，该策略将30天后将当前对象版本从S3Standard存储移
@@ -5657,7 +5652,7 @@ D.编写API调用以检查所有资源是否正确分配了标签
 通过AmazonCloudWatch安排AWSLambda函数以定期运行代码
 答案：A
 Q289在AmazonEC2实例上运行的应用程序需要访问AmazonDynamoDB表
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 EC2实例和DynamoDB表都在同一个AWS账户中.解决方案架构师必须配置必要的权限.哪种
 解决方案将允许从EC2实例对DynamoDB表的最小特权访问？
 A.使用适当的策略创建一个IAM角色，以允许访问DynamoDB表.
@@ -5677,7 +5672,7 @@ B.增加RDS数据库实例大小
 C.将RDS数据库实例存储类型更改为ProvisionedIOPS
 D.备份RDS数据库，增加存储容量，还原数据库并停止前一个实例
 答案：A、
-
+淘宝：国际认证大师微信：ANYPASS
 Q291.运营团队的标准规定，IAM策略不应直接应用于用户
 一些新的团队成员没有遵循此标准，运营经理需要一种可以轻松识别带有附加策略的用户的方法
 解决方案架构师应该怎么做才能做到这一点
@@ -5695,16 +5690,14 @@ A.用NAT实例替换NAT网关
 B.用Internet网关替换NAT网关.
 C.用网关VPC端点替换NAT网关
 D.将NAT网关替换为AWSDirectConnect连接
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 答案：C
 Q293.
 1一家公司正在AWS上设计消息驱动的订单处理应用程序.该应用程序包含许多服务，需要
 将其处理结果传达给多个使用服务，
 每个使用服务可能最多需要5天才能收到邮件
 哪个过程可以满足这些要求？
-A.应用程序将其处理结果发送到（AmazonSNS）主题.
 每个使用服务都订阅此SNS主题并使用结果
-B.应用程序将其处理结果发送到（AmazonSNS）主题.
 每个使用服务都直接从其相应的SNS主题使用消息
 C.应用程序将其处理结果发送到AmazonSimpleQueueService（AmazonSQS）队列.
 每个使用服务均作为使用该单个SQS队列的AWSLambda函数运行
@@ -5717,8 +5710,8 @@ Q294.
 后很少访问，必须查询并检索早于1年的文件，检索较旧文件的延迟是可以接受的，解决方案架构
 师需要以最小的成本存储记录的数据，
 哪种解决方案最划算？
-A.将单个文件存储在Amazon S3 Glacier中，并将搜索元数据存储在S3 Glacier中创建的对象标
-签中，查询S3Glacier标签并从S3Glacier检索文件
+签中
+查询S3Glacier标签并从S3Glacier检索文件
 B.在AmazonS3中存储单个文件1年后，使用生命周期策略将文件移至AmazonS3Glacier
 从AmazonS3或S3Glacier查询和检索文件
 C.存档单个文件，并将每个存档的搜索元数据存储在AmazonS3中
@@ -5735,7 +5728,7 @@ Q295.一家公司拥有高度动态的批处理作业，该作业使用许多Ama
 的解决方案
 解决方案架构师应该建议什么？
 A.实施EC2竞价型实例
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 B.购买EC2预留实例
 C.实施EC2按需实例
 D.在AWSLambda上实施处理
@@ -5755,7 +5748,7 @@ D.使用一个SQS标准队列.将付费照片的可见性超时设置为零
 答案：C
 Q297.一家公司在跨不同AWS区域的两个VPC中的AmazonEC2实例上托管了一个应用程序
 为了彼此通信，实例使用互联网进行连接，安全团队希望确保实例之间的通信不会通过Internet
-发生.
+发生.淘宝：国际认证大师微信：ANYPASS
 解决方案架构师应该怎么做才能做到这一点”
 A.创建一个NAT网关并更新EC2实例的子网的路由表
 B.创建一个VPC端点并更新EC2实例的子网的路由表
@@ -5771,7 +5764,7 @@ B.仅使用预留实例来处理所需的最大容量
 C.将预留实例用于基准容量，并使用竞价InstaKes处理其他容量
 D.使用预留实例作为基准容量，并使用按需实例处理其他容量
 答案：C
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 Q299在北美设有工厂的公司欧洲和亚洲正在设计新的分布式应用程序，以优化其全球供应链
 和制造流程，在一个大洲上预订的订单应该在一秒钟或更短的时间内对所有地区都可见，数据库
 应该能够以较短的恢复时间目标（RTO）支持故障转移.应用程序的正常运行时间对于确保不影
@@ -5784,7 +5777,6 @@ AmazonAurora全局数据库
 C.将AmazonRDSforMySQL与跨区域只读副本一起使用
 D.将AmazonRDSforPostgreSQL与跨区域只读副本一起使用
 答案：A
-Q300.一家公司处于安全原因在私有子网中设置了多个Amazon EC2实例，这些实例托管着定期
 在AmazonS3上读取和写入大量数据的应用程序
 当前，子网路由通过NAT网关定向发往Intemet的所有流量.该公司希望在不影响应用程序与
 AmazonS3或外部互联网通信的能力的情况下优化总体成本
@@ -5794,7 +5786,8 @@ A.创建另一个NAT网关更新路由表以路由到NAT网关
 B.创建一个Internet网关更新路由表以将流量路由到Internet网关
 更新网络ACL以允许S3通信
 C.为AmazonS3创建VPC终端节点将终端节点策略附加到终端节点
-更新路由表以将流量定向到VPC端点
+ANYPASS
+更新路由表以将流量定向到VPC端点证大州市微信：
 D.在VPC外部创建一个AWSLambda函数以处理S3请求
 将IAM策略附加到EC2实例，允许它们调用Lambda函数.
 答案：C
@@ -5812,7 +5805,11 @@ D.将视频存储在AmazonS3存储桶中
 创建一个AWSStorageGateway文件网关以访问S3存储桶.
 为Web服务器创建用户数据脚本以安装文件网关
 答案：C
-Q302.一家媒体公司将视频内容存储在AmazonElasticBlockStore（AmazonEBS）卷中.某个
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
+微信搜索ANYPASS
+微信扫一扫加为好友
+淘宝：国际认证大师微信：ANYPASS
+Q3o2.一家媒体公司将视频内容存储在AmazonElasticBlockStore（AmazonEBS）卷中.某个
 视频文件已变得很流行，世界各地的大量用户正在访问此内容，
 这导致成本增加
 在不影响用户可访问性的情况下，减少费用的措施是什么？
@@ -5825,7 +5822,7 @@ Q303解决方案架构师正在为部署到AWS的新应用程序设计云架构.
 互方式下载和上传文件：超过2年的文件将不那么频繁地访问，解决方案架构师需要确保应用程
 序可以扩展到任意数量的文件，同时保持高可用性和持久性
 解决方案架构师应该推荐哪些可扩展解决方案？（选择两个，）
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 A.使用生命周期策略将文件存储在AmazonS3上，该策略将2年以上的对象移动到S3Glacier
 B.使用生命周期策略将文件存储在AmazonS3上，该策略将2年以上的对象移动到S3
 Standard-InfrequentAccess（S3Standard-IA)
@@ -5844,7 +5841,7 @@ Q304.一家公司在其注册的母域下托管着多个业务类别的多个网
 哪种AWS服务或功能组合可以满足这些要求？（选择两个）
 A.AWS批处理
 B.网络负载平衡器
-C.应用程序负载平衡器
+C.应用程序负载平衡器国际认证大师微信：ANYPASS
 D.AmazonEC2自动扩展
 E.AmazonS3网站托管
 答案：DE
@@ -5857,9 +5854,8 @@ B.将所有EC2实例放置在同一AWS区域中
 C.将所有EC2实例放置在同一可用区中
 D.将所有EC2实例放置在多个可用区中的专用子网中
 答案：C
-Q306. 一家公司正在AWS上为全球用户托管一个选举报告网站，该网站使用带有应用程序的负载
 平衡器的AutoScaling组中的Web和应用程序层使用AmazonEc2实例.数据库层使用Amazon
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 RDSforMySQL数据库，该网站每小时都会更新一次选举结果，并且在历史上已经观察到数百名
 访问报告的用户，
 由于不同国家即将举行的选举，该公司预计需求将大大增加，解决方案架构师必须提高网站处理额
@@ -5876,7 +5872,7 @@ Q307.一家公司正在运行一个三层Web应用程序来处理信用卡付款
 该应用程序当前在单个通用大型AmazonEC2实例上运行.解决方案架构师需要解耦服务，以使
 Web应用程序高度可用
 哪种解决方案将提供最高的可用性？
-A.将静态资产移动到AmazonCloudFron
+A.将静态资产移动到AmazonCloudFron正大师微信：ANYPASS
 将应用程序保留在AutoScaling组中的EC2中
 将数据库移至AmazonRDS以部署多可用区.
 B.将静态资产和应用程序移到中等EC2实例中
@@ -5894,7 +5890,7 @@ Q308.一家公司在AmazonEC2实例上的AutoScaling组中的ApplicationLoadBala
 的性能问题.安全团队担心对网站的潜在DDoS攻击，公司必须以对合法用户影响最小的方式阻
 止非法的传入请求.
 解决方案架构师应该建议什么？
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 A.部署AmazonInspector并将其与ALB关联
 B.部署AWSWAF，将其与ALB关联，然后配置速率限制规则
 C.将规则部署到与ALB关联的网络ACL以阻止传入流量
@@ -5913,7 +5909,8 @@ Q309一家公司正在为移动应用程序创建一种架构，该架构需要�
 EC2实例连接到AmazonRDS.应用程序Beta测试表明，读取数据时速度变慢但是，这些指标
 表明EC2实例未超过任何CPU使用率阅值.
 如何解决这个问题？
-
+国际认证大师微信：ANYPASS
+淘宝：
 A.降低AutoScaling组中CPU利用率的阅值
 B.用网络负载平衡器替换应用程序负载平衡器
 C.为RDS实例添加只读副本，并将只读流量定向到该副本
@@ -5930,7 +5927,7 @@ D.实施CloudFront安全套接字层（SSL）证书以将安全性推向所服�
 答案：C
 Q311.一家媒体公司将视频内容存储在AmazonElasticBlockStore（AmazonEBS）卷中.某些
 视频文件已变得很流行，世界各地的大量用户正在访问此内容
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 这导致成本增加
 在不影响用户可访问性的情况下，减少费用的措施是什么？
 A.将EBS卷更改为预配置IOPS（PIOPS）
@@ -5958,17 +5955,16 @@ C.创建一个共享的AmazonElasticBlock存储（AmazonEBS）卷并将其安装
 实例上
 D.使用AWSDatasync在自动扩展组中的AmazonEC2主机之间执行数据的连续同步
 答案：B
-Q314.解决方案架构师创建一个将处理批处理大量数据的应用程序，输入数据将保存在Amazon
+Q314」解决方案架构师创建一个将处理批处理大量数据的应用程序，输入数据将保存在Amazon
 S3中，输出数据将存储在其他S3存储桶中，为了进行处理，该应用程序将在多个AmazonEC2
 实例之间通过网络传输数据.
 解决方案架构师应采取什么措施来降低总体数据传输成本？
 A.将所有EC2实例放置在自动缩放组中
 B.将所有EC2实例放置在同一AWS区域中
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 C.将所有EC2实例放置在同一可用区中
 D.将所有EC2实例放置在多个可用区中的专用子网中
 答案：B
-Q315.一家公司以前将其数据仓库解决方案迁移到了AWS，该公司还拥有一个AWS Direct
 Connect连接公司办公室用户，可以使用虚拟化工具查询数据仓库，数据仓库返回的查询的平均大
 小为50MB，可视化工具发送的每个网页大约为500KB.数据仓库返回的结果集不会被缓存，
 哪种解决方案为公司提供了最低的数据传输成本？
@@ -5983,7 +5979,7 @@ Q316.公司向其用户提供API，该API可根据商品价格自动进行税款
 遇到大量咨询，但只会导致响应时间变慢，解决方案架构师需要设计一个可扩展且具有弹性的解决
 方案.
 解决方案架构师应该怎么做才能做到这一点？
-
+淘宝：国际认证大师微信：ANYPASS
 A.提供托管在AmazonEC2实例上的APl
 发出API请求时，EC2实例执行所需的计算
 B.使用接受商品名称的AmazonAPIGateway设计一个RESTAPl，APIGateway将商品名称传
@@ -6001,7 +5997,7 @@ Q317公司使用遗留的本地分析应用程序，该应用程序以.CSV的千
 A.在本地部署AWsDatasync.configureDatasync，以在公司的S3存储桶之间连续复制.csv文件
 B.部署本地文件网关，配置数据源以将.CSV文件写入文件网关，将旧版分析应用程序指向文件网
 关.
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 文件gaeway应该将.csv文件复制到AmazonS3.
 C.部著本地卷网关.配置数据源以将.CSV文件写入卷网关.将旧版分析应用程序指向卷网关
 卷网关应将数据复制到AmazonS3.
@@ -6020,7 +6016,7 @@ Q319」一家公司正在AWS中开发新的机器学习模型解决方案，这�
 发的，可在启动时从AmazonS3提取约1GB的模型数据，并将数据加载到内存中：用户通过异
 步API访问模型用户可以发送一个请求或一批请求，并指定将结果发送到何处，公司提供了数百
 个用户的模型模型的使用模式是不规则的，有些型号可能会在几天或几周内不使用，其他模型
-可以一次接收成千上万的请求下
+可以一次接收成千上万的请求下认证大州巾信：ANYPASS
 哪种解决方案满足这些要求？
 A.来自API的请求被发送到应用程序负载平衡器（ALB）.模型被部署为ALB调用的AWSlambda
 函数
@@ -6038,7 +6034,7 @@ Q320一家公司拥有一个移动游戏，该游戏从AmazonRDS数据库实例�
 着游戏受欢迎程度的提高，开发人员注意到与游戏元数据加载时间有关的速度降低，性能指标表明
 仅扩展数据库将无济于事，解决方案设计师必须探索所有选项，包括快照，复制和亚毫秒级响应时
 间的功能
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 解决方案架构师应建议什么来解决问题？
 A.使用Aurora副本将数据库迁移到AmazonAurora
 B.使用全局表将数据库迁移到AmazonDynamoDB
@@ -6051,7 +6047,6 @@ EC2实例，解决方案架构师需要设计一种解决方案，以优化利�
 哪种解决方案满足这些要求？
 A.在按需实例的AutoScaling组中使用AmazonEc2
 B.构建应用程序以将AmazonLightsail与按需实例一起使用
-C.创建一个Amazon CloudWatch cros作业以在没有活动时自动停止EC2实例
 D.重新设计应用程序，以将事件驱动的设计与AmazonSimpleQueueService（AmazonSQS）
 和AWSLambda一起使用
 答案：D
@@ -6069,10 +6064,9 @@ C.在一个专用子网中创建第二个Intemet网关
 D.在一个公共子网中创建一个仅出口的Intemet网关
 更新将非VPC流量转发到仅出口Internet网关的专用子网的路由表
 答案：A
-Q323.解决方案架构师需要设计一个网络，该网络将允许多个Amazon EC2实例访问用于任务关
 键型数据的通用数据源，而所有EC2实例均可同时访问该数据源，该解决方案必须具有高度的可
 扩展性，易于实现并支持NFS协议.
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 哪种解决方案满足这些要求？
 A.创建一个AmazonEFS文件系统
 在每个可用区中配置安装目标
@@ -6086,19 +6080,18 @@ D.创建具有适当权限的AmazonEBS卷
 在AWSIAM中创建一个角色，该角色向EBS卷授予正确的权限.
 然后将角色附加到需要访问数据的EC2实例
 答案：A
-Q324.公司在AutoScaling组中的多个AmazonEC2实例上部署了多层应用程序.AmazonRDS
+Q324公司在AutoScaling组中的多个AmazonEC2实例上部署了多层应用程序.AmazonRDS
 forOracle实例是使用特定于Oracle的PUISQL函数的应用程序数据层，到该应用程序的流量一
 直在稳定增长.这导致EC2实例过载，并且RDS实例的存储空间不足.AutoScaling组没有任何
 扩展指标，仅定义了最小运行状况实例数，该公司预测，流量趋于平稳之前将继续以稳定但无法预
 测的速度增长.
 解决方案架构师应该怎么做才能确保系统可以自动扩展以适应增加的流量？（选择两个，）
-A在RDSforOracle实例上配置存储自动扩展
+A在RDSforOracle实例上配置存储自动扩展师微信：ANYPASS
 B.将数据库迁移到AmazonAurora以使用AutoScaling存储
 C.在RDSforOracle实例上配置警报，以减少可用存储空间
 D.将AutoScaling组配置为使用平均CPU作为缩放指标
 E.将AutoScaling组配置为使用平均可用内存作为缩放指标
 答案：AD
-Q325.一家公司正在准备在AWS云中启动面向公众的WEB应用程序，该架构由位于弹性负载均衡
 器（ELB）后面的VPC中的AmazonEC2实例组成.
 DNS使用第三方服务该公司的解决方案架
 构师必须推荐一种解决方案，以检测和防御大规模DDoS攻击
@@ -6108,7 +6101,7 @@ B.在Ec2实例上启用AmazonInspector
 C.启用AWSShield并为其分配AmazonRoute53
 D.启用AWSShieldAdvancd并将ELB分配给它
 答案：D
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 Q326.
 一家公司具有从其本地服务器到AWS的1oGbpsAWSDirectConnect连接.使用连接的
 工作负载至关重要该公司需要具有最大弹性的灾难恢复策略，以将当前连接带宽保持在最低水
@@ -6127,7 +6120,7 @@ A业马逊S3
 B.AmazonS3智能分层
 C.AmazonS3GlacierDeep存档
 D.AmazonS3一区不频紧访问（S3OneZone-IA）
-答案：B
+答案：B淘宝：国际认证大师微信：ANYPASS
 Q328公司没有现有的文件共享服务.一个新项目需要访问可作为本地台式机驱动器安装的文件
 存储.文件服务器必须先对ActivDirectory域进行身份验证，然后才能访问存储
 A.AWSS3Glacier
@@ -6141,7 +6134,7 @@ Q329.
 解决方案架构师应建议在迁移后使用哪种存储解决方案？
 A.AWSDataSyno
 B.AmazonElasticBlockStore（(AmazonEBS）
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 C.Amazon弹性文件系统（AmazonEFS）
 D.AmazonEMR文件系统（AmazonEMRFS）
 答案：A
@@ -6175,7 +6168,7 @@ Q332.一家公司正在构建媒体共享应用程序，并决定使用AmazonS3�
 解决方案架构师应建议什么来支持此工作负载？
 A.将处理过程内置到用于将内容上传到AmazonS3的网站或移动应用程序中，然后在上传对象后
 将所需数据保存到DynamDB表中
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 B.当对象存储在S3存储桶中时，触发一个AWSLambda函数
 让步骤函数执行处理对象所需的步骤，然后将元数据写入DynamoDB表
 C.当对象存储在S3存储桶中时，触发AWSLambda函数.
@@ -6209,7 +6202,7 @@ Q335.一家移动游戏公司在AmazonEC2实例上运行复制服务器.服务�
 解决方案架构师应该建议采取什么措施来解耦系统？
 A.使用AmazonKinesisDataStreams捕获数据并将JsON对象存储在AmazonS3中
 B.使用AmazonKinesisDataFirehouse捕获数据并将JSON对象存储在AmzonS3中
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 C.使用Amazon简单队列服务（AmzonSQS）FIFO队列捕获数据，并使用EC2实例处理队列中
 的消息.
 D.使用Amazon简单通知服务（AmazonSNS）捕获数据，并使用EC2实例处理发送到应用程序
@@ -6229,7 +6222,7 @@ C.使用AmazonS3静态网站托管来存储和服务前端
 使用AmazonDynamoDB存储用户数据
 D.使用AmazonS3静态网站托管来存储和服务前端
 将AmazonAPlGateway和Lambda函数用于应用程序层
-将AmazonRDS与只读副本一起使用以存储用户数据
+将AmazonRDS与只读副本一起使用以存储用户数据，微信：ANYPASS
 答案：C
 Q337.公司需要遵守一项法规要求，该要求规定所有电子邮件必须在外部存储和存档7年，管理
 员已在本地创建了压缩的电子邮件文件，并希望通过托管服务将文件传输到AWS存储。
@@ -6243,7 +6236,7 @@ Q338.Acompany的近实时流应用程序正在AWS上运行.提取数据后，将
 据和故事的作业，由于大量传入数据，工作负载经常遇到高延迟，解决方案架构师需要设计可扩展
 的无服务器解决方案以提高性能
 解决方案架构师应采取哪些步骤组合？（选择两个）
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 A.使用AmazonKinesisDataFirehose提取数据
 B.将AWsLambda与AWSsStepFucntions结合使用来处理数据
 C.使用AWSDatabaseMigrationService（AWSDMS）提取数据
@@ -6262,7 +6255,7 @@ Q340.
 中，该表包含超过1000万行.该数据库具有2TB的通用SSD（gp2）存储，每天通过公司网站
 都有数以百万计的对此数据进行更新，该公司已注意到某些操作需要10秒钟或更长时间，并且已
 确定数据库存储性能是瓶颈.
-
+淘宝：国际认证大师微信：ANYPASS
 哪种解决方案可以解决性能问题？
 A.将存储类型更改为ProvisionnededIOPSSSD（io1）：
 B.将实例更改为内存优化的实例类
@@ -6278,7 +6271,7 @@ B.启动面向Internet的应用程序负载平衡器（ALB），并向ALB注册�
 C.启动一个AmazonEC2实例，附加一个弹性IP地址，并将流量分配到本地服务器
 D.AutoScaling组中的启动和AmazonEC2实例都有公共IP地址，将流量分配到本地服务器
 答案：A
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 Q342.一家公司没有可以生成大量文件的应用程序，每个文件的大小约为5MB.文件存储在
 AmazonS3中.公司政策要求文件必须保存4年，然后才能删除.始终需要立即可访问性，因为
 文件包含不容易复制的关键业务数据：在创建对象的前30天中经常访问文件，但在前30天后很
@@ -6298,7 +6291,7 @@ Standard-InfrequentAccess（S3Standard-IA）
 创建对象4年后，将文件移动到S3Glacier
 答案：C
 Q343.在线购物应用程序访问AmazonRDSMulti-AZ数据库实例.数据库性能正在减慢应用程序
-的速度.升级到下一代实例类型后，性能没有明显改善.
+的速度.升级到下一代实例类型后，性能没有明显改善.微信：ANYPASS
 分析显示，大约有700IOPS的持续性，常见查询可以长时间运行，并且内存利用率很高
 解决方案架构师应建议哪种应用程序更改来解决这些问题？
 A.将RDS实例迁移到AmazonRedshift集群并启用每周垃圾收集
@@ -6314,7 +6307,7 @@ Q344.
 应该使用哪个策略来满足此要求？
 A.简单的路由策略
 B.延迟路由策略.
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 C.多值路由策略
 D.地理位置路由策略
 答案：C
@@ -6324,7 +6317,6 @@ Q345作为预算计划的一部分，管理层希望获得用户列出的AWS计�
 A.使用AmazonAthena运行查询以生成报告
 B.在CostExplorer中创建一个报告并下载该报告
 C.从结算信息中心访问账单详细信息并下载账单
-D.修改AWS预算中的成本预算以通过Amazon Simple Email Service(Amazon ses)发出警报
 答案：B
 Q346.一家公司正在准备将机密数据存储在AmazonS3中.出于合规性原因，必须静态加密数据
 必须记录加密密钥的使用情况以进行审核，钥匙必须每年旋转一次
@@ -6334,7 +6326,6 @@ B.使用AmazonS3托管密钥（SSE-S3）进行服务器端加密
 C.使用AWSKMS（SSE-KMS）客户主密钥CMK）手动旋转服务器端加密YPASS
 D.使用自动旋转的AWSKMS（SSE-KMS）客户主密钥（CMK）进行服务器端加密
 答案：D
-Q347.一家公司在其数据中心的网络连接存储（NAS）中存储了70TB的备份数据，对于很少的
 法规要求，必须可以访问此备份数据，并且必须保留7年，该公司已决定将此备份数据从其数据中
 心迁移到AWS.迁移必须在1个月内完成.该公司在其公共Internet连接上具有5o0Mbps的专
 用带宽，可用于数据传输
@@ -6348,7 +6339,7 @@ C.提供5o0Mbps的AWSDirectConnect连接，并将数据传输到AmazonS3
 D.使用AWSDataSync传输数据并在本地部署DataSync代理
 使用DataSync任务将文件从本地NAS存储复制到AmazonS3Glacier
 答案：A
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 Q348
 一家公司希望将其MySQL数据库从本地迁移到AWS.该公司最近经历了数据库中断，这
 对业务产生了重大影响，为了确保不再发生这种情况，该公司希望在AWS上使用可靠的数据库解
@@ -6380,12 +6371,11 @@ A.设置AWSAutoScaling，以在ALB上存在超时时扩展ECS服务.设置AWSAut
 CPU或内存预留量过高时扩展ECS集群
 B.设置AWSAutoScaling以在ALBCPU利用率过高时扩展ECS服务
 设置AWSAutoScaling以在CPU或内存预留过高时扩展ECS集群
-C.设置AWSAutoScaling以在服务的CPU利用率过高时扩展ECS服务
 设置AWSAutoScaling以在CPU或内存预留过高时扩展ECS集群
 D.设置AWSAutoScaling以在ALB目标组CPU利用率过高时扩展ECS服务.设置AWSAuto
 Scaling以在CPU或内存预留过高时扩展ECS集群
 答案：D
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 Q351.
 一家公司正在审查最近将三层应用程序迁移到VPC的情况.安全团队发现，最低特权原则
 未应用于应用程序层之间的AmazonEC2安全组入口和出口规则.
@@ -6400,12 +6390,11 @@ Q352
 层和付费层，付费层的用户将首先转换他们的视频，然后免费层的用户将转换他们的视频
 哪种解决方案符合这些要求，并且最具成本效益？
 A.付费层有一个FIFO队列，免费层有一个标准队列
-B.针对所有文件类型的单个FIFO Amazon Simple Queue Service（AmazonSQS）队列
 C.针对所有文件类型的单个标准AmazonSimpleQueueService（AmazonSQS）队列
 D.两个标准的AmazonSimpleQueueService（AmazonSQS）队列，其中一个用于付费层，一
 个用于免费层
 答案：A
-
+淘宝：国际认证大师微信：ANYPASS
 Q353.
 」一家公司正在建立一个网站，该网站依赖于对AmazonDynamoDB数据库的读写.与网站
 相关的流量可以预测在工作日的工作时间内达到高峰，而在一夜之间和周末则下降，解决方案架构
@@ -6422,7 +6411,7 @@ Q354一家公司正在准备在AWS上部署数据湖.解决方案架构师必须
 -必须严格区分关键用户和关键管理员之间的职责，
 -必须能够审核密钥使用情况
 解决方案架构师应该建议什么？
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 A.使用AWSKMS托管密钥（SSE-KMS）和客户托管的客户主密钥（CMK）进行服务器端加密
 B.使用带有AWS托管客户主密钥（CMKS）的AWSKMS托管密钥（SSE-KMS）进行服务器端
 加密
@@ -6441,6 +6430,7 @@ D.通过AWS管理控制台提交支持凭单请求从帐户中删除S3服务限�
 答案：B
 Q356.一家公司将AmazonRedshift用于其数据仓库.该公司希望在发生任何组件故障时确保其
 数据的高耐久性
+国际认证大师微信：ANYPASS
 解决方案架构师应该建议什么？
 A.启用并发缩放，
 B.启用跨区域快照
@@ -6453,10 +6443,9 @@ Q357.一家公司正在将基于Linux的Web服务器组迁移到AWS.Web服务器
 A.创建一个可以访问Web服务器的AmazonS3Standard存储桶
 B.配置一个以AmazonS3存储桶为源的AmazonCloudFront分发
 C.创建一个AmazonElasticFileSystem（AmazonEFS）卷并将其安装在所有Web服务器上
-D.创建Amazon Elastic Block Store(Amazon EBS)预置的IOPS SSD(io1)卷，并将其安装在
 所有Web服务器上
 答案：C
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 Q358，解决方案架构师正在计划部新的静态网站，该解决方案必须最小化成本，并提供至少
 99%的可用性
 哪种解决方案满足这些要求？
@@ -6489,7 +6478,7 @@ Q361.公司托管用于将文件上传到AmazonS3存储桶的应用程序，上�
 提取元数据，该过程不到5秒，上载的数量和频率从每小时几个文件到数百个并发上载不等，该公
 司已要求解决方案架构师设计一种符合这些要求的经济高效的体系结构
 解决方案架构师应该建议什么？
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 A.配置AWSCloudTrail路径以记录S3API调用
 使用AWSAppSync来处理文件，
 B.在S3存储桶中配置一个对象创建的事件通知，以调用AWSLambda函数来处理文件
@@ -6525,7 +6514,7 @@ D.将分数更新推送到AmazonSimpleQueueService（AmazonSQS）队列）
 将已处理的更新存储在AmazonRDSMulti-AZ数据库实例中
 答案：A
 重点关注的关键字将是高度可用的数据库-DynamoDB将是排行榜的更好选择
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 Q364一家公司在AWS上具有三层环境，该环境从其用户设备中提取传感器数据流量先流经网
 络负载平衡器（NLB），然后流至Web层的AmazonEC2实例，最后流至进行数据库调用的应
 用程序层的EC2实例.
@@ -6559,7 +6548,7 @@ Q366
 A.配置AmazonRoute53故障转移记录
 在AutoScaling组中ApplicationLoadBalancer后面的AmazonEc2实例上运行应用程序服务器
 设置具有存储卷的AWSStorageGateway，以将数据备份到AmazonS3.
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASs
 B.配置AmazonRoute53故障转移记录.
 从脚本执行AWSCloudFormation模板，以在ApplicationLoadBalancer之后创建AmazonEC2
 实例.
@@ -6580,7 +6569,7 @@ Q367
 解决方案架构师应该建议什么？
 A.在每个帐户中使用AWS管理控制台创建两个策略文档
 将策略分配给需要访问权限的开发人员，
-B.在开发帐户中创建IAM角色授子大个IAM角色对生产帐户的访问权限
+B.在开发帐户中创建IAM角色授子大个IAM角色对生产帐户的访问权限ANYPASS
 允许开发人员担任该角色
 C.使用指定开发帐户的信任策略在生产帐户中创建IAM角色
 允许开发人员担任该角色
@@ -6598,7 +6587,7 @@ B.在RDSforMySQL数据库上为应用程序用户创建凭证，并将凭证存�
 中.
 配置应用程序以从SecretsManager加载数据库凭据
 创建一个AWSLambda函数，该函数在SecretManager中轮换凭证.
-
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 C.在RDSforMySQL数据库上为应用程序用户创建凭证，并将凭证存储在AWSSecretsManager
 中.
 配置应用程序以从SecretsManager加载数据库凭据
@@ -6608,6 +6597,11 @@ Manager参数中.
 存储将应用程序配置为从参数存储加载数据库凭据
 使用参数存储在RDSforMySQL数据库中为应用程序用户设置凭据轮换时间表
 答案：A
+微信搜索ANYPASS
+淘宝：国际认
+口
+ANYPASS
+微信扫一扫加为好友
 Q369.在AmazonEC2实例上运行的应用程序需要访问AmazonDynamoOB表EC2实例和
 DynamoDB表位于同一AWS账户中.解决方案架构师必须配置必要的权限
 哪种解决方案将允许从EC2实例对DynamoDB表的最小特权访问？
@@ -6620,7 +6614,8 @@ C.使用适当的策略创建一个JAM用户，以允许访问DynamoDB表，将�
 D.使用适当的策略创建一个IAM用户，以允许访问DynamoDI3表.确保应用程序将IAM凭据安
 全地存储在本地存储上，并使用它们进行DynamoDB调用
 答案：A
-
+FM071828
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
 Q370.
 一家公司使用AmazonS3存储桶为其网站存储静态图像.该公司将权限配置为仅允许特
 权用户访问AmazonS3对象
@@ -6631,4 +6626,6 @@ C.在53存储桶上启用服务器端加密
 D.配置53生命周期规则以将对象上的i传输到Amazon53Glacier
 E.使用MEA删除要求多因素身份验证才能删除对象
 答案：AD
-
+FM071836
+淘宝：国际认证大师微信：ANYPASS
+淘宝店名：国际认证大师网址：https：//imaws.taobao.com微信：ANYPASS
